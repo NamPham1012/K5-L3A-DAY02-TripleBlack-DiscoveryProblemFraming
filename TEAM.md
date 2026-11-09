@@ -62,3 +62,29 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 - Vấn đề mạnh nhất của nhóm không phải vấn đề của riêng mình: tôi đã bỏ card lịch shop của mình để chọn vấn đề của Sơn vì nó đo được và kiểm chứng được với người thật.
 - Phân biệt opportunity (pain) với solution khi dựng cây OST, và viết Success Metric buộc phải có baseline, target, cách đo thay vì nói "nhanh hơn".
+
+### VŨ GIA LINH - 2A202603677
+
+**Phần việc phụ trách:**
+
+- Người chính CP4 (kiểm chứng) và CP6 (quyết định).
+- Hỗ trợ CP4 research và CP5 quy trình.
+- Phụ trách phỏng vấn/khảo sát người thật và tổng hợp tín hiệu.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- CP4: lập Assumption Map, soạn bộ câu hỏi theo The Mom Test (hỏi hành vi đã xảy ra), phỏng vấn người bán online và ghi thành interview snapshot; tổng hợp tín hiệu xác nhận và phản bác.
+- CP4: cùng Sơn rà bảng research, kiểm từng link mở được.
+- CP6: chủ trì chấm 4 rủi ro (Value/Usability/Feasibility/Viability) và chốt quyết định Go/Not Yet/No-Go kèm ngưỡng dừng.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md` Mục 3 (assumption map, interview snapshot, tổng hợp, research), Mục 8 (4 rủi ro + quyết định).
+- Interview snapshot trong `report/assets/` (nếu có file: `cp4-interview-snapshot-N.md`).
+- Báo cáo cá nhân `report/individual/2A202603677_VuGiaLinh.md`.
+- Commit của tài khoản vugialinh905-wq (bổ sung mã commit cụ thể).
+
+**Điều mình học được từ phần nhóm:**
+
+- Phỏng vấn phải hỏi hành vi đã xảy ra, không hỏi "bạn có muốn…"; lời khen không phải bằng chứng, chỉ hành vi và con số mới là bằng chứng.
+- Một quyết định tốt cần soi đủ 4 rủi ro và phải có ngưỡng dừng đo được, thay vì chỉ nói "nên làm".
