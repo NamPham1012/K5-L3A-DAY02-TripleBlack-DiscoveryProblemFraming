@@ -20,16 +20,14 @@ Tôi là sinh viên năm 4 đang trong quá trình thực hiện đồ án tốt
 
 Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng hợp nhiều thông tin** · **Pain từ người khác**.
 
-
-| #   | Lăng kính           | Job Story: Khi… tôi muốn… để…                                                                                                                                                     | Ai chịu ảnh hưởng?              | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng)                              |
-| ---: | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------- |
-| 1   | Lặp lại.            | Khi bắt đầu mỗi ngày làm việc, tôi muốn kiểm tra và tổng hợp các đơn hàng mới từ các sàn thương mại điện tử, để đảm bảo đơn hàng được xử lý kịp thời và không bị bỏ sót.          | Tôi, nhân viên xử lý đơn        | Thời gian tổng hợp đơn hàng 10 phút, 30 đơn/ngày                                       |
-| 2   | Tốn thời gian       | Khi khách hàng nhắn tin hỏi về sản phẩm, tôi muốn tìm và cung cấp chính xác thông tin về thành phần, nguồn gốc và hạn sử dụng, để khách hàng có đủ thông tin lựa chọn sản phẩm.   | Tôi, nhân viên CSKH             | Khoảng 20 đoạn chat/ngày, mỗi đoạn mất 15 phút phản hồi.                               |
-| 3   | Tốn thời gian       | Khi đến cuối tuần, tôi muốn kiểm tra các khoản thanh toán, phí sàn, hoàn tiền và đơn hàng trả lại, để xác định chính xác doanh thu thực nhận.                                     | Tôi                             | Đối soát doanh thu 1 lần/tuần, mất khoảng 60 phút/lần.                                 |
-| 4   | Đọc, tổng hợp nhiều | Khi đánh giá hiệu quả kinh doanh cuối tháng, tôi muốn tổng hợp doanh thu, chi phí quảng cáo, số lượng đơn hàng và tỷ lệ hoàn trả, để xác định sản phẩm kinh doanh hiệu quả.       | Tôi                             | Tổng hợp 3 báo cáo từ các sàn Shopee, Tiktok Shop, Facebook mất khoảng 120 phút/tháng. |
-| 5   | Pain từ người khác  | Khi nhận được sản phẩm, khách hàng muốn kiểm tra nguồn gốc, tem nhãn và hạn sử dụng, để yên tâm về tính xác thực của sản phẩm.                                                    | Khách hàng, nhân viên CSKH      | Khoảng 5 khách/tuần hỏi về nguồn gốc và hạn sử dụng.                                   |
-| 6   | Pain từ người khác  | Khi khách hàng đặt mua sữa, tôi muốn đơn hàng được đóng gói cẩn thận và giao đúng thời gian dự kiến, để nhận được sản phẩm nguyên vẹn và khách hàng không khó chịu khi nhận hàng. | Khách hàng, nhân viên xử lý đơn | Khoảng 10% số đơn hàng sữa gửi đi bị móp lon.                                          |
-
+|   # | Lăng kính           | Job Story: Khi… tôi muốn… để…                                                                                                                                                     | Ai chịu ảnh hưởng?              | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng)                              |
+| --: | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------- |
+|   1 | Lặp lại.            | Khi bắt đầu mỗi ngày làm việc, tôi muốn kiểm tra và tổng hợp các đơn hàng mới từ các sàn thương mại điện tử, để đảm bảo đơn hàng được xử lý kịp thời và không bị bỏ sót.          | Tôi, nhân viên xử lý đơn        | Thời gian tổng hợp đơn hàng 10 phút, 30 đơn/ngày                                       |
+|   2 | Tốn thời gian       | Khi khách hàng nhắn tin hỏi về sản phẩm, tôi muốn tìm và cung cấp chính xác thông tin về thành phần, nguồn gốc và hạn sử dụng, để khách hàng có đủ thông tin lựa chọn sản phẩm.   | Tôi, nhân viên CSKH             | Khoảng 20 đoạn chat/ngày, mỗi đoạn mất 15 phút phản hồi.                               |
+|   3 | Tốn thời gian       | Khi đến cuối tuần, tôi muốn kiểm tra các khoản thanh toán, phí sàn, hoàn tiền và đơn hàng trả lại, để xác định chính xác doanh thu thực nhận.                                     | Tôi                             | Đối soát doanh thu 1 lần/tuần, mất khoảng 60 phút/lần.                                 |
+|   4 | Đọc, tổng hợp nhiều | Khi đánh giá hiệu quả kinh doanh cuối tháng, tôi muốn tổng hợp doanh thu, chi phí quảng cáo, số lượng đơn hàng và tỷ lệ hoàn trả, để xác định sản phẩm kinh doanh hiệu quả.       | Tôi                             | Tổng hợp 3 báo cáo từ các sàn Shopee, Tiktok Shop, Facebook mất khoảng 120 phút/tháng. |
+|   5 | Pain từ người khác  | Khi nhận được sản phẩm, khách hàng muốn kiểm tra nguồn gốc, tem nhãn và hạn sử dụng, để yên tâm về tính xác thực của sản phẩm.                                                    | Khách hàng, nhân viên CSKH      | Khoảng 5 khách/tuần hỏi về nguồn gốc và hạn sử dụng.                                   |
+|   6 | Pain từ người khác  | Khi khách hàng đặt mua sữa, tôi muốn đơn hàng được đóng gói cẩn thận và giao đúng thời gian dự kiến, để nhận được sản phẩm nguyên vẹn và khách hàng không khó chịu khi nhận hàng. | Khách hàng, nhân viên xử lý đơn | Khoảng 10% số đơn hàng sữa gửi đi bị móp lon.                                          |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
@@ -42,16 +40,13 @@ AI gợi ý #3 Khi đến cuối tuần, tôi muốn kiểm tra các khoản tha
 
 ### Bảng chọn top 3
 
-
 | Rank | Problem                                    | Vì sao chọn                                                                                                                                   | Điều còn chưa chắc                                                                                                                                          |
-| ----: | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | Đối soát doanh thu cuối tuần (#3)          | Công việc thực hiện hằng tuần, mất khoảng 60 phút/lần. Có quy trình rõ ràng và ảnh hưởng trực tiếp đến việc xác định doanh thu thực nhận.     | Doanh thu thực nhận thấp hơn số liệu bán hàng là do các khoản phí sàn, hoàn tiền, đơn trả lại hay do sai sót trong quá trình tổng hợp giao dịch.            |
-| 2    | Tổng hợp báo cáo kinh doanh cuối tháng(#4) | Phải tổng hợp dữ liệu từ Shopee, TikTok Shop và Facebook, mất khoảng 120 phút/tháng. Có thể đo lường thời gian và độ chính xác của báo cáo    | 1 sản phẩm bán chạy là do giá thành tốt hay chất lượng tốt                                                                                                  |
-| 3    | Xử lý phản ánh sản phẩm sữa bị móp lon(#6) | Có dấu hiệu cụ thể từ CP1: khoảng 10% số đơn hàng sữa gửi đi bị móp lon. Vấn đề ảnh hưởng đến trải nghiệm khách hàng và chất lượng giao hàng. | Chưa xác định được lon sữa bị móp chủ yếu do đóng gói chưa đạt, va đập trong quá trình vận chuyển hay tình trạng sản phẩm trước khi gửi đến cho khách hàng. |
-
+| ---: | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    1 | Đối soát doanh thu cuối tuần (#3)          | Công việc thực hiện hằng tuần, mất khoảng 60 phút/lần. Có quy trình rõ ràng và ảnh hưởng trực tiếp đến việc xác định doanh thu thực nhận.     | Doanh thu thực nhận thấp hơn số liệu bán hàng là do các khoản phí sàn, hoàn tiền, đơn trả lại hay do sai sót trong quá trình tổng hợp giao dịch.            |
+|    2 | Tổng hợp báo cáo kinh doanh cuối tháng(#4) | Phải tổng hợp dữ liệu từ Shopee, TikTok Shop và Facebook, mất khoảng 120 phút/tháng. Có thể đo lường thời gian và độ chính xác của báo cáo    | 1 sản phẩm bán chạy là do giá thành tốt hay chất lượng tốt                                                                                                  |
+|    3 | Xử lý phản ánh sản phẩm sữa bị móp lon(#6) | Có dấu hiệu cụ thể từ CP1: khoảng 10% số đơn hàng sữa gửi đi bị móp lon. Vấn đề ảnh hưởng đến trải nghiệm khách hàng và chất lượng giao hàng. | Chưa xác định được lon sữa bị móp chủ yếu do đóng gói chưa đạt, va đập trong quá trình vận chuyển hay tình trạng sản phẩm trước khi gửi đến cho khách hàng. |
 
 ### Problem Card #1
-
 
 | Trường                                    | Nội dung                                                                                                                                                                                |
 | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -66,7 +61,6 @@ AI gợi ý #3 Khi đến cuối tuần, tôi muốn kiểm tra các khoản tha
 | Giả thuyết về AI (nếu có)                 | Hỗ trợ phát hiện các giao dịch bất thường, phân loại nguyên nhân chênh lệch và gợi ý những khoản cần kiểm tra lại.                                                                      |
 | Cảm nhận nhanh                            | Rule hoặc Workflow                                                                                                                                                                      |
 
-
 Quy trình nháp hiện tại:
 
 ```
@@ -74,7 +68,6 @@ Quy trình nháp hiện tại:
 ```
 
 ### Problem Card #2
-
 
 | Trường                                    | Nội dung                                                                                                                                                                                         |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -84,11 +77,10 @@ Quy trình nháp hiện tại:
 | Quy trình hiện tại (3–7 bước)             | 1. Thu thập báo cáo Shopee và TikTok Shop → 2. Kiểm tra đơn hàng Facebook → 3. Chuẩn hóa dữ liệu → 4. Tổng hợp doanh thu sản phẩm → 5. Phân tích hiệu quả từng sản phẩm → 6. Hoàn thiện báo cáo. |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2 – Thống kê đơn hàng Facebook (dự kiến 40 phút), do phải đọc lại các cuộc hội thoại để xác định đơn đã chốt, đơn hủy                                                                       |
 | Impact (nếu không giải thì sao)           | Đánh giá sai hiệu quả kinh doanh của từng sản phẩm, khó xác định sản phẩm bán chạy và đưa ra quyết định nhập hàng.                                                                               |
-| Success metric (baseline → target)        | Giảm thời gian tổng hợp báo cáo kinh doanh cuối tháng từ 120 phút xuống 60 phút, đồng thời giảm số đơn hàng Facebook bị bỏ sót                                                                                                              |
+| Success metric (baseline → target)        | Giảm tỷ lệ lỗi nhận diện đèn giao thông tái diễn từ 20% xuống 5% sau khi khắc phục.                                                                                                              |
 | Phương án không dùng AI                   | Sử dụng Google Sheets để quản lý đơn Facebook mỗi khi xử lý đơn hàng.                                                                                                                            |
 | Giả thuyết về AI (nếu có)                 | Hỗ trợ trích xuất thông tin đơn hàng từ nội dung tin nhắn Facebook                                                                                                                               |
 | Cảm nhận nhanh                            | Workflow                                                                                                                                                                                         |
-
 
 Quy trình nháp hiện tại:
 
@@ -97,7 +89,6 @@ Quy trình nháp hiện tại:
 ```
 
 ### Problem Card #3
-
 
 | Trường                                    | Nội dung                                                                                                                                                                          |
 | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -112,7 +103,6 @@ Quy trình nháp hiện tại:
 | Giả thuyết về AI (nếu có)                 | Không có.                                                                                                                                                                         |
 | Cảm nhận nhanh                            | No AI/Rule                                                                                                                                                                        |
 
-
 Quy trình nháp hiện tại:
 
 ```
@@ -121,23 +111,20 @@ Quy trình nháp hiện tại:
 
 ### Card muốn pitch nhất
 
-- Card số: 2
+- Card số: 3
 - Vì sao: đây là công việc tôi thực hiện mỗi cuối tháng, mất khoảng 2 giờ để tổng hợp dữ liệu từ Shopee, TikTok Shop và Facebook. Khách hàng trên Facebook chủ yếu đặt hàng qua tin nhắn nên việc thống kê thủ công dễ xảy ra tình trạng bỏ sót hoặc sai lệch. Điều này ảnh hưởng đến việc đánh giá hiệu quả kinh doanh của từng sản phẩm.
 - Câu hỏi muốn nhóm phản biện: Làm thế nào để thống kê đầy đủ và chính xác các đơn hàng từ tin nhắn Facebook? Liệu việc chuẩn hóa quy trình ghi nhận đơn hàng bằng Google Sheets đã đủ giải quyết vấn đề, hay cần một phương án hỗ trợ khác?
 
 ### AI đã phản biện card thế nào
 
-
 | Điểm yếu AI chỉ ra                                                                                           | Đồng ý?      | Đã sửa gì                                                                                       |
 | ------------------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------- |
 | Chưa xác định rõ cách xử lý các đơn hàng được đặt cuối tháng nhưng hoàn thành hoặc hoàn trả vào tháng sau.   | Đồng ý       | Thống nhất thời điểm ghi nhận đơn hàng và doanh thu khi tổng hợp báo cáo.                       |
-| Chưa đánh giá được chi phí phát sinh từ việc đổi trả có lớn hơn chi phí bổ sung vật liệu đóng gói hay không. | Chưa sửa | So sánh chi phí đổi trả, bồi hoàn với chi phí tăng cường đóng gói để đánh giá hiệu quả kinh tế. |
-
+| Chưa đánh giá được chi phí phát sinh từ việc đổi trả có lớn hơn chi phí bổ sung vật liệu đóng gói hay không. | Cần xác nhận | So sánh chi phí đổi trả, bồi hoàn với chi phí tăng cường đóng gói để đánh giá hiệu quả kinh tế. |
 
 ---
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
-
 
 | Hoạt động                  | Tôi đã làm gì?         | Kết quả / ảnh hưởng tới bài nhóm |
 | -------------------------- | ---------------------- | -------------------------------- |
@@ -152,11 +139,9 @@ Quy trình nháp hiện tại:
 | Mức can thiệp AI           |                        |                                  |
 | Quyết định                 |                        |                                  |
 
-
 ---
 
 ## 5. Dùng AI
-
 
 | Checkpoint                     | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 | ------------------------------ | ---------------------- | ----------------- | -------------------------- | ----------------------------------- |
@@ -166,7 +151,6 @@ Quy trình nháp hiện tại:
 | CP5 Quy trình                  |                        |                   |                            |                                     |
 | CP5–6 Problem Statement        |                        |                   |                            |                                     |
 | CP6 Mức can thiệp / quyết định |                        |                   |                            |                                     |
-
 
 ---
 
@@ -186,10 +170,10 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi _problem → quy trình → metric → boundary → mức can thiệp AI → quyết định_ của bài nhóm mình.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
-- 
+-
