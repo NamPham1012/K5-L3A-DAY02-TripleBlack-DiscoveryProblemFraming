@@ -8,28 +8,33 @@
 
 - Họ tên: Lê Nguyễn Hoàng Sơn
 - MSSV:2A202603686
-- Email trường (không bắt buộc, repo có thể để public):26ai.sonlnh@vinuni.edu.vn
+- Email trường (không bắt buộc, repo có thể để public):[26ai.sonlnh@vinuni.edu.vn](mailto:26ai.sonlnh@vinuni.edu.vn)
 - Tên nhóm:TripleBlack
-- Link repo nhóm: https://github.com/NamPham1012/-K5-L3A-DAY02-TripleBlack-DiscoveryProblemFraming
+- Link repo nhóm: [https://github.com/NamPham1012/-K5-L3A-DAY02-TripleBlack-DiscoveryProblemFraming](https://github.com/NamPham1012/-K5-L3A-DAY02-TripleBlack-DiscoveryProblemFraming)
 
 ---
+
 ## 2. Scan problem (CP1)
+
+Tôi là sinh viên năm 4 đang trong quá trình thực hiện đồ án tốt nghiệp, đồng thời quản lý sản thương mại điện tử của một cửa hàng sữa công thức nhập khẩu dành cho trẻ em trên các sàn thương mại điện tử.
 
 Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng hợp nhiều thông tin** · **Pain từ người khác**.
 
-| # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
-|---:|---|---|---|---|
-| 1 |Lặp lại|Khi nhận dữ liệu từ camera và các cảm biến sau mỗi đợt thử nghiệm, tôi muốn kiểm tra chất lượng và định dạng dữ liệu, để đảm bảo dữ liệu đáp ứng định dạng đã được quy định chung để tránh gây xung đột |AI Engineer, Data Engineer|Mỗi đợt kiểm tra dữ liệu mất khoảng 30–45 phút |
-| 2 |Lặp lại |Khi cập nhật mô hình nhận diện vật thể xung quanh, tôi muốn đánh giá mô hình mới trên bộ kiểm thử chuẩn để đánh giá chất lượng mô hình sau khi cập nhật |AI Engineer, ML Engineer|Mỗi tuần đánh giá 2–3 lần, khoảng 40 phút/lần.|
-| 3 |Tốn thời gian|Khi xử lý đèn giao thông từ camera trên xe tự lái, tôi muốn xác định chính xác trạng thái đèn và thời gian còn lại của đèn trong các điều kiện ánh sáng,thời tiết, lưu lượng các phương tiện xung quanh khác nhau, để phương tiện có thể đưa ra quyết định di chuyển chính xác và an toàn.|Computer Vision, AI Engineer|Mất khoảng 7 giờ để thu nhập dữ liệu, kiểm tra dữ liệu, chạy mô hình, phân tích lỗi, điều chỉnh lại, kiểm thử lại|
-| 4 |Tốn thời gian|Khi mô hình nhận diện sai phương tiện hoặc người đi bộ trong tình huống giao thông phức tạp, tôi muốn xác định nguyên nhân lỗi, để cải thiện độ tin cậy của mô hình. |AI Engineer, ML Engineer|Mất 1 ngày để sửa lỗi không nhận diện được người đi bộ qua đường gây nguy hiểm.|
-| 5 |Cần đọc, tổng hợp nhiều thông tin|Khi lựa chọn phiên bản mô hình để tích hợp, tôi muốn so sánh độ chính xác, tốc độ xử lý và tài nguyên sử dụng của các phiên bản, để lựa chọn mô hình đáp ứng yêu cầu hệ thống.|Tech Lead, Tester, AI Engineer |Nhiều phiên bản cần so sánh với nhau, tìm ra phiên bản ổn định và an toàn nhất.|
-| 6 |Pain từ người khác|Khi kiểm thử chức năng nhận diện đèn giao thông, tôi muốn biết rõ nguyên nhân các trường hợp nhận diện sai đèn giao thông để cải tiển hơn so với lần trước|AI Engineer, Tester|Lỗi xác định sai thời gian đèn xanh còn lại dẫn đến vượt đèn đỏ gây nguy hiểm.|
-| 7 |Pain từ người khác|Khi kiểm thử chức năng phanh khẩn cấp khi gặp chướng ngại vật bất ngờ trên cao tốc khi xe đang ở tốc độ cao, tôi muốn biết thời gian tối đa phát hiện vật cản và dừng lại để cải tiến tốc độ nhận diện vật thể |AI Engineer, Tester|Xe phía trước bật đèn cảnh báo và giảm tốc độ nhưng xe tự lái không nhận diện được, người dân chạy qua đường cao tốc từ xa xe không phản ứng kịp yếu tố bất ngờ.|
+
+| #   | Lăng kính           | Job Story: Khi… tôi muốn… để…                                                                                                                                                     | Ai chịu ảnh hưởng?              | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng)                              |
+| ---: | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------- |
+| 1   | Lặp lại.            | Khi bắt đầu mỗi ngày làm việc, tôi muốn kiểm tra và tổng hợp các đơn hàng mới từ các sàn thương mại điện tử, để đảm bảo đơn hàng được xử lý kịp thời và không bị bỏ sót.          | Tôi, nhân viên xử lý đơn        | Thời gian tổng hợp đơn hàng 10 phút, 30 đơn/ngày                                       |
+| 2   | Tốn thời gian       | Khi khách hàng nhắn tin hỏi về sản phẩm, tôi muốn tìm và cung cấp chính xác thông tin về thành phần, nguồn gốc và hạn sử dụng, để khách hàng có đủ thông tin lựa chọn sản phẩm.   | Tôi, nhân viên CSKH             | Khoảng 20 đoạn chat/ngày, mỗi đoạn mất 15 phút phản hồi.                               |
+| 3   | Tốn thời gian       | Khi đến cuối tuần, tôi muốn kiểm tra các khoản thanh toán, phí sàn, hoàn tiền và đơn hàng trả lại, để xác định chính xác doanh thu thực nhận.                                     | Tôi                             | Đối soát doanh thu 1 lần/tuần, mất khoảng 60 phút/lần.                                 |
+| 4   | Đọc, tổng hợp nhiều | Khi đánh giá hiệu quả kinh doanh cuối tháng, tôi muốn tổng hợp doanh thu, chi phí quảng cáo, số lượng đơn hàng và tỷ lệ hoàn trả, để xác định sản phẩm kinh doanh hiệu quả.       | Tôi                             | Tổng hợp 3 báo cáo từ các sàn Shopee, Tiktok Shop, Facebook mất khoảng 120 phút/tháng. |
+| 5   | Pain từ người khác  | Khi nhận được sản phẩm, khách hàng muốn kiểm tra nguồn gốc, tem nhãn và hạn sử dụng, để yên tâm về tính xác thực của sản phẩm.                                                    | Khách hàng, nhân viên CSKH      | Khoảng 5 khách/tuần hỏi về nguồn gốc và hạn sử dụng.                                   |
+| 6   | Pain từ người khác  | Khi khách hàng đặt mua sữa, tôi muốn đơn hàng được đóng gói cẩn thận và giao đúng thời gian dự kiến, để nhận được sản phẩm nguyên vẹn và khách hàng không khó chịu khi nhận hàng. | Khách hàng, nhân viên xử lý đơn | Khoảng 10% số đơn hàng sữa gửi đi bị móp lon.                                          |
+
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
--Giữ lại ý 1 và loại bỏ ý Xây dựng Agent tự động điều khiển xe tự lái vì phạm vi quá rộng, tốn nhiều tài nguyên, độ an toàn thấp và nhiều rủi ro pháp lý khi xe gặp sự cố mà những người làm ra Agent và duyệt phải gánh chịu khi gặp sự cố nghiêm trọng
+AI gợi ý #3 Khi đến cuối tuần, tôi muốn kiểm tra các khoản thanh toán, phí sàn, hoàn tiền và đơn hàng trả lại, để xác định chính xác doanh thu thực nhận. :Tôi giữ lại vì đây là công việc tôi thực hiện thường xuyên, phải kiểm tra các khoản thanh toán, phí sàn, hoàn tiền và đơn hàng trả lại. Công việc mất khoảng 60 phút/lần, mỗi tuần 1 lần.  
+ Loại bỏ ý tưởng Cập nhật tồn kho trên các sàn thương mại điện tử vì hệ thống hiện tại đã tự động cập nhật số lượng tồn kho khi khách hàng mua hoặc hoàn trả hàng. Chỉ phải chỉnh lại khi nhập thêm hàng.
 
 ---
 
@@ -37,124 +42,131 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 ### Bảng chọn top 3
 
-| Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
-|---:|---|---|---|
- 3 |Nhận diện tín hiệu đèn giao thông(#3)|Liên quan trực tiếp đến an toàn xe tự lái, có thể đo tỷ lệ nhận diện sai và phân tích các tình huống khó như thời tiết xấu, ánh sáng yếu.|Chưa xác định điều kiện nào gây lỗi nhiều nhất và thời gian xử lý mỗi lỗi.|
-| 6 |Kiểm thử lỗi nhận diện đèn giao thông(#6)|Có tình huống kiểm thử cụ thể, ảnh hưởng đến AI Engineer và Tester; có thể xác định quy trình phát hiện, phân tích và kiểm thử lại lỗi.|Chưa xác định nguyên nhân lỗi chủ yếu và số lần phải kiểm thử lại.|
-| 7 |Kiểm thử chức năng phanh khẩn cấp(#7)|Có tác động lớn đến an toàn phương tiện, có thể đánh giá thời gian phát hiện vật cản và phản ứng của hệ thống trong tình huống nguy hiểm.|Chưa có dữ liệu kiểm thử xác nhận nguyên nhân xe không phát hiện vật cản và các ngưỡng an toàn cần đạt.|
+
+| Rank | Problem                                    | Vì sao chọn                                                                                                                                   | Điều còn chưa chắc                                                                                                                                          |
+| ----: | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | Đối soát doanh thu cuối tuần (#3)          | Công việc thực hiện hằng tuần, mất khoảng 60 phút/lần. Có quy trình rõ ràng và ảnh hưởng trực tiếp đến việc xác định doanh thu thực nhận.     | Doanh thu thực nhận thấp hơn số liệu bán hàng là do các khoản phí sàn, hoàn tiền, đơn trả lại hay do sai sót trong quá trình tổng hợp giao dịch.            |
+| 2    | Tổng hợp báo cáo kinh doanh cuối tháng(#4) | Phải tổng hợp dữ liệu từ Shopee, TikTok Shop và Facebook, mất khoảng 120 phút/tháng. Có thể đo lường thời gian và độ chính xác của báo cáo    | 1 sản phẩm bán chạy là do giá thành tốt hay chất lượng tốt                                                                                                  |
+| 3    | Xử lý phản ánh sản phẩm sữa bị móp lon(#6) | Có dấu hiệu cụ thể từ CP1: khoảng 10% số đơn hàng sữa gửi đi bị móp lon. Vấn đề ảnh hưởng đến trải nghiệm khách hàng và chất lượng giao hàng. | Chưa xác định được lon sữa bị móp chủ yếu do đóng gói chưa đạt, va đập trong quá trình vận chuyển hay tình trạng sản phẩm trước khi gửi đến cho khách hàng. |
 
 
 ### Problem Card #1
 
-| Trường | Nội dung |
-|---|---|
-| Job Story | Khi xử lý đèn giao thông từ camera trên xe tự lái, tôi muốn xác định chính xác trạng thái đèn và thời gian còn lại của đèn trong các điều kiện ánh sáng, thời tiết và lưu lượng phương tiện xung quanh khác nhau, để phương tiện có thể đưa ra quyết định di chuyển chính xác và an toàn.|
-| Actor | Computer Vision Engineer, AI Engineer |
-| Thời điểm / bối cảnh |Trong quá trình phát triển và kiểm thử chức năng nhận diện tín hiệu đèn giao thông, đặc biệt với các tình huống ánh sáng yếu, trời mưa hoặc đèn bị che khuất, phương tiện phía trước che khuất đèn giao thông.|
-| Quy trình hiện tại (3–7 bước) |1. Thu thập dữ liệu camera → 2. Kiểm tra dữ liệu và nhãn → 3. Chạy mô hình nhận diện → 4. Đối chiếu với kết quả chuẩn → 5. Phân tích lỗi → 6. Điều chỉnh mô hình hoặc dữ liệu → 7. Kiểm thử lại.|
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 5: Phân tích những trường hợp nhận diện sai để xác định nguyên nhân từ dữ liệu, điều kiện môi trường hoặc mô hình. |
-| Impact (nếu không giải thì sao) |Có thể làm tăng thời gian kiểm thử, số lần phải chạy lại mô hình và ảnh hưởng đến độ tin cậy của chức năng nhận diện.|
-| Success metric (baseline → target) |Giảm thời gian trung bình phân tích một trường hợp lỗi, không tăng tỷ lệ bỏ sót lỗi nghiêm trọng.|
-| Phương án không dùng AI |Sử dụng checklist kiểm tra hình ảnh, phân loại lỗi theo điều kiện môi trường và đối chiếu thủ công với nhãn chuẩn.|
-| Giả thuyết về AI (nếu có) |Có thể hỗ trợ phân loại và tổng hợp những trường hợp nhận diện sai để kỹ sư xem xét. Chưa quyết định sử dụng. |
-| Cảm nhận nhanh |Agent|
+
+| Trường                                    | Nội dung                                                                                                                                                                                |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Job Story                                 | Khi đến cuối tuần, tôi muốn kiểm tra các khoản thanh toán, phí sàn, hoàn tiền và đơn hàng trả lại, để xác định chính xác doanh thu thực nhận.                                           |
+| Actor                                     | Tôi                                                                                                                                                                                     |
+| Thời điểm / bối cảnh                      | Cuối mỗi tuần, tôi phải đối soát doanh thu từ các giao dịch bán hàng để xác định số tiền cửa hàng thực nhận sau khi trừ các khoản phí, hoàn tiền và đơn trả lại.                        |
+| Quy trình hiện tại (3–7 bước)             | 1. Truy cập báo cáo doanh thu → 2. Xuất danh sách giao dịch → 3. Kiểm tra phí sàn và hoàn tiền → 4. Đối chiếu giao dịch → 5. Tổng hợp doanh thu thực nhận → 6. Kiểm tra và lưu báo cáo. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 4 – Đối chiếu giao dịch (dự kiến 20 phút), do phải kiểm tra nhiều khoản phí và giao dịch hoàn tiền để tìm ra nguyên nhân chênh lệch doanh thu.                                     |
+| Impact (nếu không giải thì sao)           | Cửa hàng ghi nhận sai doanh thu.                                                                                                                                                        |
+| Success metric (baseline → target)        | Giảm thời gian đối soát từ 60 phút xuống 30 phút/lần, đồng thời đảm bảo các khoản phí và giao dịch hoàn tiền được ghi nhận đầy đủ.                                                      |
+| Phương án không dùng AI                   | Sử dụng Excel hoặc Google Sheets để tổng hợp các giao dịch.                                                                                                                             |
+| Giả thuyết về AI (nếu có)                 | Hỗ trợ phát hiện các giao dịch bất thường, phân loại nguyên nhân chênh lệch và gợi ý những khoản cần kiểm tra lại.                                                                      |
+| Cảm nhận nhanh                            | Rule hoặc Workflow                                                                                                                                                                      |
+
 
 Quy trình nháp hiện tại:
 
 ```
-1. Thu thập dữ liệu camera 10 phút -> 2. Kiểm tra dữ liệu và nhãn 20 phút -> 3. Chạy mô hình nhận diện 30 phút -> 4. Đối chiếu kết quả 10 phút -> 5. Phân tích nguyên nhân lỗi 3 giờ -> 6. Điều chỉnh mô hình hoặc dữ liệu 2 giờ -> 7. Kiểm thử lại 30 phút
-Tổng thời gian: 190 phút (3 giờ 10 phút)
-Bottleneck dự kiến: Bước 5 – Phân tích nguyên nhân lỗi (60 phút), do AI Engineer phải đối chiếu dữ liệu kiểm thử, hình ảnh và log hệ thống để xác định nguyên nhân nhận diện sai.
-Tổng thời gian: 450 phút (7 giờ 30 phút)
-Bottleneck: Bước 5 – Phân tích nguyên nhân lỗi (3 giờ), chiếm 40% tổng thời gian.
+[1. Truy cập báo cáo: 5'] -> [2. Xuất danh sách giao dịch: 10'] -> [3. Kiểm tra phí sàn và hoàn tiền: 10'] -> [4. Đối chiếu giao dịch: 20'] <- BOTTLENECK -> [5. Tổng hợp doanh thu thực nhận: 10'] -> [6. Kiểm tra và lưu báo cáo: 5']
 ```
 
 ### Problem Card #2
 
-| Trường | Nội dung |
-|---|---|
-| Job Story | Khi kiểm thử chức năng nhận diện đèn giao thông, tôi muốn biết rõ nguyên nhân các trường hợp nhận diện sai để cải tiến tốt hơn so với lần trước. |
-| Actor |AI Engineer, Tester |
-| Thời điểm / bối cảnh |Khi Tester phát hiện hệ thống nhận diện sai tín hiệu đèn và cần phối hợp với AI Engineer để tìm nguyên nhân, xác nhận hướng khắc phục và kiểm thử lại.|
-| Quy trình hiện tại (3–7 bước) | 1. Chuẩn bị test case → 2. Chạy kiểm thử → 3. Ghi nhận lỗi → 4. Gửi thông tin cho AI Engineer → 5. Phân tích nguyên nhân → 6. Trao đổi kết quả và kiểm thử lại.|
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 4–5: Thông tin lỗi có thể chưa đầy đủ khiến Tester và AI Engineer phải trao đổi nhiều lần để xác định nguyên nhân. Cần đo xem bước nào thực sự gây nghẽn.|
-| Impact (nếu không giải thì sao) |Có thể kéo dài thời gian xử lý lỗi, trì hoãn kiểm thử lại và tăng khối lượng trao đổi giữa các bộ phận. |
-| Success metric (baseline → target) |Giảm tỷ lệ lỗi nhận diện đèn giao thông tái diễn từ 20% xuống 5% sau khi khắc phục.|
-| Phương án không dùng AI |Chuẩn hóa mẫu báo cáo lỗi bao gồm ảnh/video, thời điểm, điều kiện kiểm thử, trạng thái đèn thực tế, kết quả nhận diện|
-| Giả thuyết về AI (nếu có) | Hỗ trợ tổng hợp thông tin lỗi từ test case và log thành báo cáo để kỹ sư kiểm tra. |
-| Cảm nhận nhanh | Chưa biết|
+
+| Trường                                    | Nội dung                                                                                                                                                                                         |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Job Story                                 | Khi đánh giá hiệu quả kinh doanh cuối tháng, tôi muốn tổng hợp doanh thu, chi phí quảng cáo, số lượng đơn hàng và tỷ lệ hoàn trả, để xác định sản phẩm kinh doanh hiệu quả.                      |
+| Actor                                     | Tôi                                                                                                                                                                                              |
+| Thời điểm / bối cảnh                      | Cuối mỗi tháng, tôi tổng hợp dữ liệu bán hàng từ Shopee, TikTok Shop và Facebook. Các đơn hàng Facebook chủ yếu được chốt qua tin nhắn nên cần thống kê riêng                                    |
+| Quy trình hiện tại (3–7 bước)             | 1. Thu thập báo cáo Shopee và TikTok Shop → 2. Kiểm tra đơn hàng Facebook → 3. Chuẩn hóa dữ liệu → 4. Tổng hợp doanh thu sản phẩm → 5. Phân tích hiệu quả từng sản phẩm → 6. Hoàn thiện báo cáo. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2 – Thống kê đơn hàng Facebook (dự kiến 40 phút), do phải đọc lại các cuộc hội thoại để xác định đơn đã chốt, đơn hủy                                                                       |
+| Impact (nếu không giải thì sao)           | Đánh giá sai hiệu quả kinh doanh của từng sản phẩm, khó xác định sản phẩm bán chạy và đưa ra quyết định nhập hàng.                                                                               |
+| Success metric (baseline → target)        | Giảm thời gian tổng hợp báo cáo kinh doanh cuối tháng từ 120 phút xuống 60 phút, đồng thời giảm số đơn hàng Facebook bị bỏ sót                                                                                                              |
+| Phương án không dùng AI                   | Sử dụng Google Sheets để quản lý đơn Facebook mỗi khi xử lý đơn hàng.                                                                                                                            |
+| Giả thuyết về AI (nếu có)                 | Hỗ trợ trích xuất thông tin đơn hàng từ nội dung tin nhắn Facebook                                                                                                                               |
+| Cảm nhận nhanh                            | Workflow                                                                                                                                                                                         |
+
 
 Quy trình nháp hiện tại:
 
 ```
-1. Chuẩn bị test case 15 phút -> 2. Chạy kiểm thử 60 phút -> 3. Ghi nhận trường hợp lỗi 20 phút -> 4. Chuyển thông tin lỗi 5 phút -> 5. Phân tích nguyên nhân  60 phút - BOTTLENECK dự kiến -> 6. Trao đổi kết quả và kiểm thử lại 30 phút .
+[1. Thu thập báo cáo Shopee, TikTok Shop: 15'] -> [2. Kiểm tra đơn Facebook: 40'] <- BOTTLENECK -> [3. Chuẩn hóa dữ liệu: 20'] -> [4. Tổng hợp doanh thu sản phẩm: 25'] -> [5. Phân tích hiệu quả sản phẩm: 15'] -> [6. Hoàn thiện báo cáo: 5']
 ```
 
 ### Problem Card #3
 
-| Trường | Nội dung |
-|---|---|
-| Job Story | Khi kiểm thử chức năng nhận diện đèn giao thông, tôi muốn xác định rõ nguyên nhân của các trường hợp nhận diện sai, để khắc phục lỗi và cải thiện độ chính xác của hệ thống trong những lần kiểm thử tiếp theo.|
-| Actor |AI Engineer, Tester|
-| Thời điểm / bối cảnh |Khi Tester phát hiện hệ thống nhận diện sai tín hiệu đèn giao thông và cần phối hợp với AI Engineer để phân tích nguyên nhân, xác nhận hướng khắc phục và kiểm thử lại. |
-| Quy trình hiện tại (3–7 bước) |. Chuẩn bị kịch bản → 2. Thiết lập môi trường mô phỏng → 3. Chạy kiểm thử → 4. Thu thập log → 5. Phân tích thời gian phản ứng → 6. Tổng hợp kết quả và kiểm thử lại. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | 	Bước 5: Đối chiếu dữ liệu cảm biến, thời điểm phát hiện vật cản, thời điểm phát lệnh phanh và phản hồi hệ thống để xác định nguyên nhân phản ứng không đạt yêu cầu.|
-| Impact (nếu không giải thì sao) |	Có thể kéo dài quá trình xác định lỗi, khiến nhóm khó phân biệt vấn đề của mô hình nhận diện với vấn đề thuộc các bộ phận điều khiển khác. |
-| Success metric (baseline → target) | Giảm thời gian phân tích mỗi tình huống kiểm thử từ 60 phút xuống 40 phút, đo bằng log công việc. Các chỉ số phản ứng và an toàn phải đạt tiêu chí kiểm thử đã được phê duyệt.|
-| Phương án không dùng AI | Phân tích cốt lõi tốc độ mô hình phản ứng và nâng cấp mô hình |
-| Giả thuyết về AI (nếu có) | Hỗ trợ tổng hợp log và làm nổi bật các sự kiện bất thường để kỹ sư phân tích; không đưa ra quyết định phanh thực tế.|
-| Cảm nhận nhanh | Rule hoặc Workflow|
+
+| Trường                                    | Nội dung                                                                                                                                                                          |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Job Story                                 | Khi khách hàng đặt mua sữa, tôi muốn đơn hàng được đóng gói cẩn thận và giao đúng thời gian dự kiến, để nhận được sản phẩm nguyên vẹn và khách hàng không khó chịu khi nhận hàng. |
+| Actor                                     | Khách hàng, nhân viên xử lý đơn                                                                                                                                                   |
+| Thời điểm / bối cảnh                      | Khi khách nhận đơn hàng và phát hiện lon sữa bị móp, khách phản ánh với cửa hàng để được kiểm tra và hỗ trợ xử lý.                                                                |
+| Quy trình hiện tại (3–7 bước)             | 1. Tiếp nhận đơn → 2. Kiểm tra tình trạng sản phẩm → 3. Đóng gói → 4. Bàn giao cho đơn vị vận chuyển → 5. Khách nhận và kiểm tra → 6. Tiếp nhận, xác minh và xử lý phản ánh.      |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 6: Phải xử lý các phản ánh của khách hàng rất kỹ lưỡng để vừa không làm mất lòng khách hàng vừa đảm bảo không gây thiệt hại lớn cho cửa hàng.                                |
+| Impact (nếu không giải thì sao)           | Nếu vấn đề tiếp diễn, cửa hàng có thể phát sinh nhiều trường hợp đổi trả, tăng chi phí vận hành, giảm sự hài lòng và niềm tin của khách hàng.                                     |
+| Success metric (baseline → target)        | Giảm tỷ lệ đơn hàng có lon sữa bị móp từ khoảng 10% xuống dưới 3%.                                                                                                                |
+| Phương án không dùng AI                   | Chuẩn hóa quy trình kiểm tra và đóng gói, sử dụng vật liệu chống va đập, lưu hình ảnh kiện hàng trước khi bàn giao và theo dõi phản ánh theo đơn vị vận chuyển.                   |
+| Giả thuyết về AI (nếu có)                 | Không có.                                                                                                                                                                         |
+| Cảm nhận nhanh                            | No AI/Rule                                                                                                                                                                        |
+
 
 Quy trình nháp hiện tại:
 
 ```
-1. Chuẩn bị test case - 15 phút -> 2. Chạy kiểm thử - 20 phút -> 3. Ghi nhận lỗi - 10 phút -> 4. Chuyển thông tin lỗi - 5phút -> 5. Phân tích nguyên nhân - 60phút -> 6. Trao đổi kết quả và kiểm thử lại - 30 phút
-Tổng thời gian ước tính: 140 phút/lần xử lý lỗi.
-Bottleneck dự kiến: Bước 5 – Phân tích nguyên nhân, chiếm khoảng 43% tổng thời gian.
+[1. Tiếp nhận đơn: 5'] -> [2. Kiểm tra sản phẩm: 10'] -> [3. Đóng gói: 10'] -> [4. Bàn giao vận chuyển: 5'] -> [5. Khách nhận và kiểm tra: 5'] -> [6. Xác minh, xử lý phản ánh: 10'] <- BOTTLENECK dự kiến
 ```
 
 ### Card muốn pitch nhất
 
-- Card số: 3
-- Vì sao: 	Đây là vấn đề liên quan trực tiếp đến an toàn của hệ thống xe tự lái.
-- Câu hỏi muốn nhóm phản biện:Làm thế nào để xác định nguyên nhân phản ứng phanh chậm là do mô hình nhận diện vật cản hay hệ thống điều khiển phanh?
+- Card số: 2
+- Vì sao: đây là công việc tôi thực hiện mỗi cuối tháng, mất khoảng 2 giờ để tổng hợp dữ liệu từ Shopee, TikTok Shop và Facebook. Khách hàng trên Facebook chủ yếu đặt hàng qua tin nhắn nên việc thống kê thủ công dễ xảy ra tình trạng bỏ sót hoặc sai lệch. Điều này ảnh hưởng đến việc đánh giá hiệu quả kinh doanh của từng sản phẩm.
+- Câu hỏi muốn nhóm phản biện: Làm thế nào để thống kê đầy đủ và chính xác các đơn hàng từ tin nhắn Facebook? Liệu việc chuẩn hóa quy trình ghi nhận đơn hàng bằng Google Sheets đã đủ giải quyết vấn đề, hay cần một phương án hỗ trợ khác?
 
 ### AI đã phản biện card thế nào
 
-| Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
-|---|---|---|
-|Phạm vi vấn đề quá rộng, liên quan đến cảm biến, nhận diện vật cản và điều khiển phanh.|Cần xác nhận|Đề xuất thu hẹp vào phân tích kết quả kiểm thử và nguyên nhân phản ứng chậm.|
-|Chưa chứng minh được rằng cần sử dụng AI để giải quyết vấn đề. | Cần xác nhận| Đề xuất so sánh phương án dùng checklist và công cụ phân tích log với phương án có AI hỗ trợ.|
+
+| Điểm yếu AI chỉ ra                                                                                           | Đồng ý?      | Đã sửa gì                                                                                       |
+| ------------------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------- |
+| Chưa xác định rõ cách xử lý các đơn hàng được đặt cuối tháng nhưng hoàn thành hoặc hoàn trả vào tháng sau.   | Đồng ý       | Thống nhất thời điểm ghi nhận đơn hàng và doanh thu khi tổng hợp báo cáo.                       |
+| Chưa đánh giá được chi phí phát sinh từ việc đổi trả có lớn hơn chi phí bổ sung vật liệu đóng gói hay không. | Chưa sửa | So sánh chi phí đổi trả, bồi hoàn với chi phí tăng cường đóng gói để đánh giá hiệu quả kinh tế. |
+
 
 ---
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
-|---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+
+| Hoạt động                  | Tôi đã làm gì?         | Kết quả / ảnh hưởng tới bài nhóm |
+| -------------------------- | ---------------------- | -------------------------------- |
+| Pitch Problem Card         |                        |                                  |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:    |                                  |
+| Nhận phản biện             | Câu hỏi tôi nhận được: | Tôi đã sửa gì:                   |
+| Gom cluster / cây OST      |                        |                                  |
+| Chọn candidate problem     |                        |                                  |
+| Kiểm chứng / research      |                        |                                  |
+| Quy trình nhóm             |                        |                                  |
+| Problem Statement          |                        |                                  |
+| Mức can thiệp AI           |                        |                                  |
+| Quyết định                 |                        |                                  |
+
 
 ---
 
 ## 5. Dùng AI
 
-| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
-|---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+
+| Checkpoint                     | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
+| ------------------------------ | ---------------------- | ----------------- | -------------------------- | ----------------------------------- |
+| CP1 Scan                       |                        |                   |                            |                                     |
+| CP2 Problem Card               |                        |                   |                            |                                     |
+| CP4 Research                   |                        |                   |                            |                                     |
+| CP5 Quy trình                  |                        |                   |                            |                                     |
+| CP5–6 Problem Statement        |                        |                   |                            |                                     |
+| CP6 Mức can thiệp / quyết định |                        |                   |                            |                                     |
+
 
 ---
 
@@ -180,4 +192,4 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 ## 7. Tài liệu tham khảo
 
--
+- 
