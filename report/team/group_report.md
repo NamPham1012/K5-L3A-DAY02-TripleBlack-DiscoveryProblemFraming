@@ -313,32 +313,45 @@ Vì sao: Quy trình đã rõ các bước và đầu ra có đáp án đúng/sai
 
 | Rủi ro          | Câu hỏi                                                           | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 | --------------- | ----------------------------------------------------------------- | ----------------------------------------------------- | ------------------ |
-| **Value**       | Người dùng có thật sự cần và sẽ dùng không?                       |                                                       |                    |
-| **Usability**   | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? |                                                       |                    |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không?                     |                                                       |                    |
-| **Viability**   | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành?     |                                                       |                    |
+| **Value**       | Người dùng có thật sự cần và sẽ dùng không?                       | Thấp (an toàn) | Pain đo được (~60'/tuần, từng lệch số liệu thật) và phủ nhiều người bán — xác nhận ở CP4. |
+| **Usability**   | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | Trung bình | Người bán quen Excel nên tiếp cận được, nhưng cần giao diện duyệt dòng gắn cờ đủ rõ để sửa nhanh. |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không?                     | Trung bình | Dữ liệu có sẵn (file xuất từ sàn); nhưng xử lý nhiều định dạng + độ chính xác gắn cờ cần công sức. |
+| **Viability**   | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành?     | Thấp – Trung bình | Chi phí thấp nếu dùng công cụ sẵn; dữ liệu tài chính nội bộ nên cần cẩn trọng bảo mật; người bán tự vận hành. |
 
 
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Quyết định:** **Go, phạm vi nhỏ** (pilot ở mức Workflow với một người bán).
 
-**Lý do:**
+**Lý do:** Pain thật và đo được (Value rủi ro thấp), dữ liệu sẵn có, mức Workflow vừa đủ. Các rủi ro còn lại ở mức Trung bình đều kiểm soát được bằng HITL (người bán duyệt trước khi chốt) và phương án quay về đối chiếu tay.
 
-**Nếu Go — pilot nhỏ nhất:**
+**Nếu Go — pilot nhỏ nhất:** Chạy thử 3 tuần với một người bán (Sơn) trên 2 sàn: Rule gộp dữ liệu + AI gắn cờ dòng nghi ngờ chênh lệch, người bán duyệt và chốt. Đo thời gian đối soát và số dòng bỏ sót theo bộ eval ở Mục 7.
 
-**Nếu Not Yet — cần kiểm chứng gì trước:**
+**Nếu Not Yet — cần kiểm chứng gì trước:** Phỏng vấn thêm ≥2 người bán để chắc baseline thời gian và tỷ lệ bỏ sót; kiểm xem file các sàn có đủ trường để gộp mà không nhập tay toàn bộ (giả định #5).
 
-**Nếu No-Go — nên làm gì thay AI:**
+**Nếu No-Go — nên làm gì thay AI:** Dùng phương án No AI/Rule — template chuẩn hoá + pivot/công thức Excel, import file chuẩn — vẫn giảm được phần thời gian gộp.
 
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+**Ngưỡng dừng** (nếu sau … mà … thì quay về …): Nếu sau **3 tuần** pilot mà **thời gian đối soát không giảm xuống ≤45'/tuần** hoặc **AI bỏ sót >10% dòng chênh lệch** (eval #1 không đạt), thì **quay về phương án Rule/No AI** (template + pivot Excel) và dừng phần AI.
 
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
 
-- 
+- Baseline hiện chủ yếu từ một người bán (Sơn); cần đo thật từ ≥2 người để số liệu đại diện hơn.
+- Chưa kiểm chứng giả định #5 (file các sàn có đủ trường để gộp tự động) và #6 (chi phí duy trì) — để lại cho vòng sau.
+- Phạm vi lần này chốt ở khâu đối soát tuần; báo cáo kinh doanh tháng và các pain khác (yêu cầu mơ hồ, tổng hợp thông tin) là hướng mở rộng.
+- Hướng tiếp theo: chạy pilot 3 tuần theo bộ eval, thu phản hồi các lần người bán đính chính dòng AI gắn cờ để tinh chỉnh quy tắc.
 
 ## 10. Tài liệu tham khảo
 
-- 
+- Double Diamond — Design Council (UK): https://www.designcouncil.org.uk/resources/framework-for-innovation/
+- Job Story (Jobs-to-be-Done) — Intercom / Alan Klement: https://www.intercom.com/blog/accidentally-invented-job-stories/
+- Opportunity Solution Tree — Teresa Torres: https://www.producttalk.org/opportunity-solution-trees/
+- Assumptions Mapping — David Bland / Strategyzer: https://www.strategyzer.com/library/how-assumptions-mapping-can-focus-your-teams-on-running-experiments-that-matter
+- The Mom Test — Rob Fitzpatrick: https://www.momtestbook.com/
+- Lean UX Problem Statement — Jeff Gothelf: https://jeffgothelf.com/blog/business-problem-statement-opportunity-statement/
+- Google PAIR — User Needs + Defining Success: https://pair.withgoogle.com/chapter/user-needs/
+- Building Effective Agents — Anthropic: https://www.anthropic.com/research/building-effective-agents
+- AI Canvas — Prediction Machines (HBR): https://hbr.org/2018/04/a-simple-tool-to-start-making-decisions-with-the-help-of-ai
+- Four Big Risks — Marty Cagan (SVPG): https://www.svpg.com/four-big-risks/
+- Công cụ research CP4: Sapo (https://www.sapo.vn), Pancake POS (https://pos.pancake.vn), Shopee Seller Center (https://seller.shopee.vn)
