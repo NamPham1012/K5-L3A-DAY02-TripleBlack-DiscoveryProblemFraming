@@ -151,12 +151,12 @@ Ban đầu, nhóm tập trung vào việc gom dữ liệu từ nhiều sàn. Sau
 Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
 ```text
-HIỆN TẠI — ~60 phút/tuần (đối soát), ~120 phút/tháng (báo cáo)
+HIỆN TẠI — ~60 phút/tuần (đối soát).
 
 [1 Tải báo cáo từng sàn: 10']
    → [2 Chuẩn hoá từng file khác định dạng: 10']
-   → [★3 Gộp dữ liệu nhiều nguồn vào 1 bảng: 10']
-   → [★4 Đối chiếu phí sàn / hoàn tiền / đơn trả, tìm chênh lệch: 20']  ← BOTTLENECK
+   → [3 Gộp dữ liệu nhiều nguồn vào 1 bảng: 10']
+   → [4 Đối chiếu phí sàn / hoàn tiền / đơn trả, tìm chênh lệch: 20']  ← BOTTLENECK
    → [5 Tính doanh thu thực nhận: 5']
    → [6 Lưu/gửi báo cáo: 5']
 ```
@@ -172,7 +172,7 @@ HIỆN TẠI — ~60 phút/tuần (đối soát), ~120 phút/tháng (báo cáo)
 | 6    | Người bán | Kết quả                              | Báo cáo lưu/gửi           | 5' / tuần            |                              |
 
 
-**Bottleneck chính:**Bước 4 — đối chiếu phí sàn / hoàn tiền / đơn trả để tìm chênh lệch (\~20'/lần), chiếm 1/3 tổng thời gian, dễ bỏ sót và khiến doanh thu ghi nhận sai.
+Bottleneck chính: Bước 4 — đối chiếu phí sàn / hoàn tiền / đơn trả để tìm chênh lệch (\~20'/lần), chiếm 1/3 tổng thời gian, dễ bỏ sót và khiến doanh thu ghi nhận sai.
 
 ### 4.2. Quy trình tương lai
 
@@ -184,7 +184,7 @@ TƯƠNG LAI — kỳ vọng ~30 phút/tuần
 [1 Tải báo cáo từng sàn: 10']  (CON NGƯỜI, như cũ)
    → [2 RULE: chuẩn hoá cột theo mẫu cố định mỗi sàn: 3']
    → [3 RULE/AI: gộp & khớp các dòng về 1 bảng chung: 3']
-   → [★4 AI: phát hiện & phân loại dòng chênh lệch, gợi ý khoản cần xem: 4']
+   → [4 AI: phát hiện & phân loại dòng chênh lệch, gợi ý khoản cần xem: 4']
         └─ BOUNDARY: AI chỉ GỢI Ý dòng nghi ngờ, KHÔNG tự sửa số, KHÔNG tự chốt doanh thu
    → [5 CON NGƯỜI (HITL): duyệt dòng AI gắn cờ + đọc lướt toàn bảng: 7']
    → [6 CON NGƯỜI: chốt doanh thu thực nhận & lưu báo cáo: 3']
