@@ -10,12 +10,11 @@
 
 ## Thành viên
 
-| STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
-|---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| STT | Họ và tên           | MSSV        | Vai trò trong nhóm | Tài khoản GitHub |
+| ---: | ------------------- | ----------- | ------------------ | ---------------- |
+| 1   | Phạm Văn Nam        | 2A202603681 | Leader             | NamPham1012      |
+| 2   | Lê Nguyễn Hoàng Sơn | 2A202603686 |                    | SonLNH19         |
+| 3   | Vũ Gia Linh         | 2A202603677 |                    | vugialinh905-wq  |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 

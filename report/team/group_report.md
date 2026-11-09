@@ -7,7 +7,7 @@
 
 - Tên nhóm: Triple Black
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
+- Candidate problem được chọn (1 câu): Sinh viên / người đi làm nhận một yêu cầu công việc mô tả mơ hồ nên hiểu sai, làm ra kết quả lệch ý và phải làm lại, khiến công việc đội thời gian.
 - Quyết định cuối: Go / Not Yet / No-Go
 
 ---
@@ -18,57 +18,67 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Nam | Khi khách hỏi thuê một bộ đồ, muốn biết ngay bộ đó còn trống đúng ngày không, để chốt đơn nhanh | Chủ shop cho thuê đồ | Dò lịch bận/trống bằng tay (~4'/lần) | Pain chỉ của riêng shop bạn hay nhiều người gặp? (Linh) |
+| 2 | Nam | Khi vừa sửa code đồ án, muốn cập nhật tài liệu cho khớp, để nộp bản đúng thực tế | SV làm đồ án | Nhớ/dò lại "đã sửa gì" (~25') | Có phải gốc là do chưa ghi changelog không? (Sơn) |
+| 3 | Nam | Khi khách freelance mô tả việc mơ hồ, muốn chốt rõ phạm vi trước khi nhận, để job không phình ra | SV nhận job freelance | Chốt scope thiếu danh sách hạng mục → phát sinh | Nguyên nhân do khách hay do quy trình của bạn? (Linh) |
+| 4 | Linh | Khi nhập dữ liệu từ hóa đơn/email/form, muốn trích xuất tự động, để khỏi gõ tay vào bảng tính | Kế toán, hành chính | Đọc và gõ lại (~3–4'/hóa đơn) | Nhóm là SV, có kiểm chứng được với kế toán thật không? (Nam) |
+| 5 | Linh | Khi nhận yêu cầu mơ hồ từ khách/đồng nghiệp, muốn có checklist câu hỏi làm rõ, để tránh làm sai rồi sửa lại | Người thực hiện task | Thiếu bước làm rõ yêu cầu → 1/3 task phải làm lại | Người gửi yêu cầu có chịu trả lời thêm câu hỏi không? (Sơn) |
+| 6 | Linh | Khi họp xong, muốn có bảng tóm tắt và việc cần làm, để khỏi mất công viết biên bản | Quản lý, thành viên nhóm | Viết biên bản (~45'/buổi) | Ghi âm/transcript tiếng Việt chồng tiếng có đủ chính xác? (Nam) |
+| 7 | Sơn | Khi xử lý đèn giao thông từ camera xe tự lái, muốn xác định đúng trạng thái đèn mọi điều kiện, để xe quyết định an toàn | CV/AI Engineer | Phân tích nguyên nhân nhận diện sai (~3h) | Buổi lab và nhóm SV có đủ dữ liệu/điều kiện để làm không? (Nam) |
+| 8 | Sơn | Khi kiểm thử lỗi nhận diện đèn, muốn biết nguyên nhân các ca sai, để cải tiến | AI Engineer, Tester | Truy nguyên nhân lỗi | An toàn tính mạng — có kiểm chứng được với người thật không? (Linh) |
+| 9 | Sơn | Khi kiểm thử phanh khẩn cấp, muốn biết thời gian phát hiện vật cản và dừng, để cải tiến tốc độ nhận diện | AI Engineer, Tester | Đo ngưỡng phát hiện vật cản | Phạm vi này vượt một buổi lab, có thu hẹp được không? (Nam) |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A — Yêu cầu/mô tả việc mơ hồ → làm sai, làm lại | #3 (scope freelance), #5 (checklist làm rõ yêu cầu) | Việc bắt đầu khi yêu cầu chưa rõ ràng → hiểu sai → phải sửa/làm lại, đội thời gian |
+| B — Tổng hợp & ghi lại thông tin rải rác | #2 (đồng bộ tài liệu đồ án), #6 (biên bản họp) | Phải gom, nhớ lại và viết lại thông tin đã có ở nơi khác |
+| C — Tra cứu / nhập trạng thái dữ liệu thủ công | #1 (lịch trống shop), #4 (nhập liệu hóa đơn) | Dò hoặc nhập tay một trạng thái/dữ liệu có cấu trúc |
+| D — Kiểm thử & phân tích lỗi mô hình xe tự lái | #7, #8, #9 | Phân tích nguyên nhân lỗi mô hình thị giác, liên quan an toàn, cần dữ liệu/hạ tầng lớn |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giảm thời gian và số lần phải làm lại ở các công việc lặp của sinh viên vừa học vừa làm
+
+├── Opportunity A: Người thực hiện không hiểu đúng yêu cầu ngay từ đầu nên làm ra kết quả lệch ý, phải làm lại
+├── Opportunity B: Thông tin cần dùng nằm rải rác, phải gom và viết lại nhiều lần
+└── Opportunity C: Phải dò hoặc nhập tay một trạng thái/dữ liệu có cấu trúc, dễ sai và tốn thời gian
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- "Làm một chatbot trả lời khách tự động" — là giải pháp, không phải pain.
+- "Dùng AI trích xuất hóa đơn", "app quản lý lịch shop tất-cả-trong-một" — gọi tên công cụ/tính năng, bị gạch khỏi cây OST.
+- "Xây Agent tự điều khiển xe tự lái" — solution, phạm vi quá rộng (đã loại ngay ở bước scan).
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
+Shortlist 3 candidate đại diện cho 3 cluster A, B, C (cluster D bị loại vì vượt sức lab và không kiểm chứng được với người thật).
+
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| A — Yêu cầu mơ hồ → làm lại (#3 + #5) | 5 | 4 | 5 | 5 | 5 | 5 | 5 | **34** |
+| B — Tổng hợp thông tin rải rác (#2 + #6) | 4 | 4 | 4 | 3 | 4 | 4 | 4 | 27 |
+| C — Tra cứu / nhập trạng thái thủ công (#1 + #4) | 4 | 5 | 4 | 4 | 4 | 4 | 3 | 28 |
 
-**Candidate được chọn:**
+**Candidate được chọn:** Cluster A — *Người thực hiện nhận một yêu cầu công việc mô tả mơ hồ nên hiểu sai, làm ra kết quả lệch ý và phải làm lại.*
 
 **Vì sao chọn:**
+- Pain xuất hiện ở **nhiều thành viên** (Nam ở job freelance, Linh ở task công việc) → nhóm hiểu domain và cùng gặp thật.
+- **Dễ kiểm chứng với người thật** ngay trong buổi lab: hỏi sinh viên nhóm khác về lần gần nhất nhận task mơ hồ trong đồ án/làm nhóm (CP4 cần hành vi đã xảy ra, không cần người đi làm).
+- **Impact đo được rõ**: tỷ lệ task phải làm lại, số vòng hỏi lại, thời gian đội thêm.
+- **So sánh được cả 4 mức AI**: No AI/Rule (checklist câu hỏi làm rõ cố định) → Workflow (AI gợi ý câu hỏi còn thiếu từ mô tả) → Agent (ít phù hợp) → thuận cho CP6.
 
 **Vì sao loại các candidate còn lại:**
+- **Cluster D (xe tự lái của Sơn):** liên quan an toàn tính mạng, cần dữ liệu camera và hạ tầng lớn, **không kiểm chứng được với người thật** trong buổi lab và **vượt sức** → loại.
+- **Cluster C (nhập liệu hóa đơn, #4):** actor là kế toán/hành chính, nhóm là sinh viên nên **khó phỏng vấn đúng người thật**; lịch shop (#1) thì chỉ một mình Nam gặp, phạm vi hẹp → loại.
+- **Cluster B (biên bản họp, đồng bộ tài liệu):** impact khó đo khách quan ("tài liệu đúng với code" đo thế nào), và biên bản họp phụ thuộc chất lượng transcript tiếng Việt → để lại làm hướng mở rộng, không chọn lần này.
 
-**Xử lý bất đồng (nếu có):**
+**Xử lý bất đồng (nếu có):** Sơn muốn giữ hướng xe tự lái vì đúng chuyên môn; nhóm thống nhất ghi nhận là hướng cá nhân nhưng không chọn cho lab này vì không kiểm chứng được với người thật và vượt sức một buổi. Sơn đồng ý tham gia cluster A ở vai trò phản biện và kiểm chứng.
 
 ---
 
