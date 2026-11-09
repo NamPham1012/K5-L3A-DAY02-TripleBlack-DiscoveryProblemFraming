@@ -117,13 +117,13 @@ Bottleneck dự kiến: Bước 5 – Phân tích nguyên nhân, chiếm khoản
 
 - Card số: 3
 - Vì sao: 	Đây là vấn đề liên quan trực tiếp đến an toàn của hệ thống xe tự lái.
-- Câu hỏi muốn nhóm phản biện:
+- Câu hỏi muốn nhóm phản biện:Làm thế nào để xác định nguyên nhân phản ứng phanh chậm là do mô hình nhận diện vật cản hay hệ thống điều khiển phanh?
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
-|---|---|---|
-| | | |
+|Phạm vi vấn đề quá rộng, liên quan đến cảm biến, nhận diện vật cản và điều khiển phanh.|Cần xác nhận|Đề xuất thu hẹp vào phân tích kết quả kiểm thử và nguyên nhân phản ứng chậm.|
+|Chưa chứng minh được rằng cần sử dụng AI để giải quyết vấn đề. | Cần xác nhận| Đề xuất so sánh phương án dùng checklist và công cụ phân tích log với phương án có AI hỗ trợ.|
 
 ---
 
