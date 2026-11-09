@@ -139,11 +139,11 @@ Tổng hợp:
 ### 3.3. Research giải pháp đã có
 
 
-| Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
-| ------------------------ | ---- | ------------------------------ | --------- | --------------------- | ---------------- |
-|                          |      |                                |           |                       |                  |
-|                          |      |                                |           |                       |                  |
-|                          |      |                                |           |                       |                  |
+| Công cụ / case / pattern                                              | Link                                                                                                                | Giải bước nào?                                                              | Điểm mạnh                                                                  | Khoảng trống / rủi ro                                                                                                         | Bài học cho nhóm                                                                                 |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **Sapo Omnichannel** (phần mềm quản lý bán hàng đa kênh)              | [sapo.vn/omnichannel.html](https://sapo.vn/omnichannel.html)                                                        | Bước 1 + 3: kết nối nhiều sàn, gom đơn và doanh thu về một nơi              | Đồng bộ đa sàn tự động; có báo cáo bán hàng tập trung; phổ biến ở Việt Nam | Trả phí theo gói; phần đối soát phí sàn / hoàn tiền / đơn trả ở mức chi tiết có thể chưa khớp 100% với số sàn thanh toán thật | Bước “gom” đã có công cụ làm tốt → không nên làm lại; giá trị nằm ở bước **đối soát chênh lệch** |
+| **Pancake POS** (quản lý bán hàng đa kênh, mạnh về mạng xã hội)       | [docs.pos.pages.fm — Kết nối Shopee](https://docs.pos.pages.fm/pos/thiet-lap-shop/kenh-ban/ket-noi-kenh-ban/shopee) | Bước 1 + 3: gom đơn từ Facebook, Shopee, TikTok vào một hệ thống            | Mạnh ở kênh Facebook/mạng xã hội; quen thuộc với shop nhỏ                  | Phụ thuộc kết nối API với từng sàn; tính năng đối soát sâu bị giới hạn theo gói                                               | Xác nhận lại: pain thật không phải “gom” mà là **tìm và giải thích chênh lệch**                  |
+| **Google Sheets + file xuất từ Shopee Seller Center** (pattern No-AI) | [seller.shopee.vn](https://seller.shopee.vn)                                                                        | Bước 1 → 4: tải file từng sàn rồi dùng công thức / pivot để gộp và đối soát | Miễn phí; linh hoạt; người bán tự kiểm soát số liệu                        | Vẫn tốn công ghép tay; dễ sai khi mỗi sàn đổi định dạng file; dễ bỏ sót dòng chênh                                            | Dùng làm **phương án No AI/Rule** để so sánh ở CP6 và làm phương án quay về                      |
 
 
 ---
@@ -155,39 +155,57 @@ Tổng hợp:
 Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
 ```text
+HIỆN TẠI — ~60 phút/tuần (đối soát), ~120 phút/tháng (báo cáo)
 
+[1 Tải báo cáo từng sàn: 10']
+   → [2 Chuẩn hoá từng file khác định dạng: 10']
+   → [★3 Gộp dữ liệu nhiều nguồn vào 1 bảng: 10']
+   → [★4 Đối chiếu phí sàn / hoàn tiền / đơn trả, tìm chênh lệch: 20']  ← BOTTLENECK
+   → [5 Tính doanh thu thực nhận: 5']
+   → [6 Lưu/gửi báo cáo: 5']
 ```
 
 
-| Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
-| ----: | ----- | ----- | ------ | -------------------- | ------- |
-| 1    |       |       |        |                      |         |
-| 2    |       |       |        |                      |         |
-| 3    |       |       |        |                      |         |
-| 4    |       |       |        |                      |         |
-| 5    |       |       |        |                      |         |
+| Bước | Actor     | Input                                | Output                    | Thời gian / tần suất | Ghi chú                      |
+| :----: | --------- | ------------------------------------ | ------------------------- | :--------------------: | ---------------------------- |
+| 1    | Người bán | Tài khoản các sàn (Shopee/TikTok/FB) | File báo cáo thô từng sàn | 10' / tuần           | Mỗi sàn một nơi tải          |
+| 2    | Người bán | File thô mỗi sàn                     | File chuẩn hoá cột        | 10' / tuần           | Mỗi sàn khác định dạng       |
+| 3    | Người bán | Các file chuẩn hoá                   | 1 bảng tổng hợp           | 10' / tuần           | Copy–paste tay, dễ lệch dòng |
+| 4    | Người bán | Bảng tổng hợp + phí/hoàn tiền        | Danh sách chênh lệch      | 20' / tuần           | **Bottleneck**               |
+| 5    | Người bán | Bảng đã đối chiếu                    | Doanh thu thực nhận       | 5' / tuần            |                              |
+| 6    | Người bán | Kết quả                              | Báo cáo lưu/gửi           | 5' / tuần            |                              |
 
 
-**Bottleneck chính:**
+**Bottleneck chính:**Bước 4 — đối chiếu phí sàn / hoàn tiền / đơn trả để tìm chênh lệch (\~20'/lần), chiếm 1/3 tổng thời gian, dễ bỏ sót và khiến doanh thu ghi nhận sai.
 
 ### 4.2. Quy trình tương lai
 
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
+
 
 ```text
+TƯƠNG LAI — kỳ vọng ~30 phút/tuần
 
+[1 Tải báo cáo từng sàn: 10']  (CON NGƯỜI, như cũ)
+   → [2 RULE: chuẩn hoá cột theo mẫu cố định mỗi sàn: 3']
+   → [3 RULE/AI: gộp & khớp các dòng về 1 bảng chung: 3']
+   → [★4 AI: phát hiện & phân loại dòng chênh lệch, gợi ý khoản cần xem: 4']
+        └─ BOUNDARY: AI chỉ GỢI Ý dòng nghi ngờ, KHÔNG tự sửa số, KHÔNG tự chốt doanh thu
+   → [5 CON NGƯỜI (HITL): duyệt dòng AI gắn cờ + đọc lướt toàn bảng: 7']
+   → [6 CON NGƯỜI: chốt doanh thu thực nhận & lưu báo cáo: 3']
+                                                    Tổng: ~30'/tuần
 ```
 
 ### 4.3. Before / after
 
 
-| Chỉ số               | Trước | Sau (kỳ vọng) | Ghi chú |
-| -------------------- | -----: | -------------: | ------- |
-| Số bước              |       |               |         |
-| Tổng thời gian       |       |               |         |
-| Số bước thủ công     |       |               |         |
-| Bottleneck chính     |       |               |         |
-| Rủi ro mới phát sinh |       |               |         |
+| Bước | Ai làm           | Việc                                                                                  | Thời gian |
+| :----: | ---------------- | ------------------------------------------------------------------------------------- | :---------: |
+| 1    | Con người        | Tải báo cáo từng sàn                                                                  | 10'       |
+| 2    | Rule             | Chuẩn hoá cột theo mẫu cố định của mỗi sàn                                            | 3'        |
+| 3    | Rule/AI          | Gộp &amp; khớp các dòng về 1 bảng chung                                               | 3'        |
+| 4    | **AI**           | Phát hiện &amp; phân loại dòng chênh lệch (phí sàn / hoàn tiền / đơn trả / lệch dòng) | 4'        |
+| 5    | Con người (HITL) | Duyệt dòng AI gắn cờ, xác nhận/đính chính; đọc lướt toàn bảng để bắt AI bỏ sót        | 7'        |
+| 6    | Con người        | Chốt doanh thu thực nhận &amp; lưu báo cáo                                            | 3'        |
 
 
 ---
@@ -243,7 +261,6 @@ Vì sao: Quy trình đã rõ các bước và đầu ra có đáp án đúng/sai
 **Vì sao không chọn mức đơn giản hơn:**
 
 - Không chọn No AI/Rule đơn thuần vì: mỗi sàn xuất định dạng khác nhau và chênh lệch (phí, hoàn tiền, đơn trả) không phải lúc nào cũng theo quy tắc cứng — rule tĩnh dễ bỏ sót dòng bất thường. Nhưng Rule vẫn được dùng cho bước chuẩn hoá/gộp (phần có quy tắc rõ).
-
 - Không chọn Agent vì: quy trình đã cố định, không cần AI tự quyết bước tiếp theo; để AI tự chốt con số tài chính là rủi ro không đáng.
 
 ### 6.3. AI Canvas rút gọn
@@ -274,7 +291,7 @@ Vì sao: Quy trình đã rõ các bước và đầu ra có đáp án đúng/sai
 | **Actor**                                       | Người bán hàng online bán trên ≥2 sàn TMĐT (chủ shop nhỏ / người vừa học vừa kinh doanh) tự đối soát doanh thu.                                             |
 | **Quy trình**                                   | Cuối tuần: tải báo cáo từng sàn → chuẩn hoá (Rule) → gộp (Rule/AI) → AI gắn cờ dòng nghi ngờ → người duyệt (HITL) → chốt doanh thu → lưu.                   |
 | **Bottleneck**                                  | Đối chiếu phí/hoàn tiền/đơn trả để tìm chênh lệch (\~20'/lần), tốn giờ và dễ bỏ sót.                                                                        |
-| **Impact**                                     | \~60'/tuần/người; chênh lệch bị sót làm ghi sai doanh thu, quyết định sai sản phẩm.                                                                          |
+| **Impact**                                      | \~60'/tuần/người; chênh lệch bị sót làm ghi sai doanh thu, quyết định sai sản phẩm.                                                                         |
 | **Success Metric** (baseline → target, cách đo) | Thời gian đối soát: 60' → ≤30' (bấm giờ 3 tuần); dòng chênh lệch bỏ sót giảm ≥50% (đối chiếu chéo, baseline đo từ ≥2 người bán).                            |
 | **Boundary**                                    | AI chỉ gợi ý; không tự sửa số, không tự chốt doanh thu. HITL bắt buộc; người duyệt đọc lướt toàn bảng để bắt AI bỏ sót; có phương án quay về đối chiếu tay. |
 | **AI intervention point**                       | Bước phát hiện &amp; phân loại dòng nghi ngờ chênh lệch sau khi đã gộp dữ liệu.                                                                             |
