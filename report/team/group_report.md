@@ -7,7 +7,7 @@
 
 - Tên nhóm: Triple Black
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu): Sinh viên / người đi làm nhận một yêu cầu công việc mô tả mơ hồ nên hiểu sai, làm ra kết quả lệch ý và phải làm lại, khiến công việc đội thời gian.
+- Candidate problem được chọn (1 câu): Người bán hàng online / người vừa học vừa kinh doanh nhỏ phải gom và đối soát dữ liệu giao dịch phân mảnh từ nhiều nguồn (nhiều sàn TMĐT, nhiều file/chứng từ) thành một báo cáo hoặc con số đúng, tốn thời gian và dễ sai.
 - Quyết định cuối: Go / Not Yet / No-Go
 
 ---
@@ -24,61 +24,61 @@
 | 4 | Linh | Khi nhập dữ liệu từ hóa đơn/email/form, muốn trích xuất tự động, để khỏi gõ tay vào bảng tính | Kế toán, hành chính | Đọc và gõ lại (~3–4'/hóa đơn) | Nhóm là SV, có kiểm chứng được với kế toán thật không? (Nam) |
 | 5 | Linh | Khi nhận yêu cầu mơ hồ từ khách/đồng nghiệp, muốn có checklist câu hỏi làm rõ, để tránh làm sai rồi sửa lại | Người thực hiện task | Thiếu bước làm rõ yêu cầu → 1/3 task phải làm lại | Người gửi yêu cầu có chịu trả lời thêm câu hỏi không? (Sơn) |
 | 6 | Linh | Khi họp xong, muốn có bảng tóm tắt và việc cần làm, để khỏi mất công viết biên bản | Quản lý, thành viên nhóm | Viết biên bản (~45'/buổi) | Ghi âm/transcript tiếng Việt chồng tiếng có đủ chính xác? (Nam) |
-| 7 | Sơn | Khi xử lý đèn giao thông từ camera xe tự lái, muốn xác định đúng trạng thái đèn mọi điều kiện, để xe quyết định an toàn | CV/AI Engineer | Phân tích nguyên nhân nhận diện sai (~3h) | Buổi lab và nhóm SV có đủ dữ liệu/điều kiện để làm không? (Nam) |
-| 8 | Sơn | Khi kiểm thử lỗi nhận diện đèn, muốn biết nguyên nhân các ca sai, để cải tiến | AI Engineer, Tester | Truy nguyên nhân lỗi | An toàn tính mạng — có kiểm chứng được với người thật không? (Linh) |
-| 9 | Sơn | Khi kiểm thử phanh khẩn cấp, muốn biết thời gian phát hiện vật cản và dừng, để cải tiến tốc độ nhận diện | AI Engineer, Tester | Đo ngưỡng phát hiện vật cản | Phạm vi này vượt một buổi lab, có thu hẹp được không? (Nam) |
+| 7 | Sơn | Khi đến cuối tuần, muốn kiểm các khoản thanh toán, phí sàn, hoàn tiền và đơn trả, để xác định đúng doanh thu thực nhận | Chủ shop TMĐT (sữa) | Đối chiếu giao dịch nhiều khoản (~20'), tổng ~60'/tuần | Chênh lệch là do phí/hoàn tiền hay do gom sai số liệu? (Nam) |
+| 8 | Sơn | Khi cuối tháng, muốn tổng hợp doanh thu, chi phí quảng cáo, số đơn, tỷ lệ hoàn trả từ nhiều sàn, để biết sản phẩm nào hiệu quả | Chủ shop TMĐT | Gom 3 báo cáo Shopee/TikTok/FB (~120'/tháng) | Mỗi sàn xuất file khác định dạng, gom thủ công có hay sai không? (Linh) |
+| 9 | Sơn | Khi khách đặt sữa, muốn đơn được đóng gói kỹ và giao nguyên vẹn, để khách không khó chịu khi nhận | Khách, nhân viên đóng gói | ~10% đơn sữa bị móp lon | Đây là vấn đề quy trình đóng gói hay vận chuyển của sàn? (Nam) |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A — Yêu cầu/mô tả việc mơ hồ → làm sai, làm lại | #3 (scope freelance), #5 (checklist làm rõ yêu cầu) | Việc bắt đầu khi yêu cầu chưa rõ ràng → hiểu sai → phải sửa/làm lại, đội thời gian |
-| B — Tổng hợp & ghi lại thông tin rải rác | #2 (đồng bộ tài liệu đồ án), #6 (biên bản họp) | Phải gom, nhớ lại và viết lại thông tin đã có ở nơi khác |
-| C — Tra cứu / nhập trạng thái dữ liệu thủ công | #1 (lịch trống shop), #4 (nhập liệu hóa đơn) | Dò hoặc nhập tay một trạng thái/dữ liệu có cấu trúc |
-| D — Kiểm thử & phân tích lỗi mô hình xe tự lái | #7, #8, #9 | Phân tích nguyên nhân lỗi mô hình thị giác, liên quan an toàn, cần dữ liệu/hạ tầng lớn |
+| A — Gom & đối soát dữ liệu phân mảnh từ nhiều nguồn | #4 (nhập liệu hóa đơn/form), #7 (đối soát doanh thu tuần), #8 (báo cáo kinh doanh tháng nhiều sàn) | Phải lấy dữ liệu từ nhiều nguồn/định dạng khác nhau rồi gom, đối chiếu thành một bảng/con số đúng; tốn giờ và dễ sai |
+| B — Yêu cầu/mô tả việc mơ hồ → làm sai, làm lại | #3 (scope freelance), #5 (checklist làm rõ yêu cầu) | Việc bắt đầu khi yêu cầu chưa rõ → hiểu sai → phải sửa/làm lại |
+| C — Tổng hợp & ghi lại thông tin rải rác | #2 (đồng bộ tài liệu đồ án), #6 (biên bản họp) | Phải nhớ lại và viết lại thông tin đã có ở nơi khác |
+| D — Tra cứu trạng thái / chất lượng giao hàng | #1 (lịch trống shop), #9 (đơn sữa móp lon) | Tra nhanh một trạng thái, hoặc kiểm soát chất lượng vật lý khi giao |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: Giảm thời gian và số lần phải làm lại ở các công việc lặp của sinh viên vừa học vừa làm
+OUTCOME: Giảm thời gian và sai sót khi phải tự xử lý dữ liệu/công việc lặp của người vừa học vừa kinh doanh nhỏ
 
-├── Opportunity A: Người thực hiện không hiểu đúng yêu cầu ngay từ đầu nên làm ra kết quả lệch ý, phải làm lại
-├── Opportunity B: Thông tin cần dùng nằm rải rác, phải gom và viết lại nhiều lần
-└── Opportunity C: Phải dò hoặc nhập tay một trạng thái/dữ liệu có cấu trúc, dễ sai và tốn thời gian
+├── Opportunity A: Dữ liệu cần dùng nằm rải rác ở nhiều nguồn/định dạng, phải gom và đối chiếu tay nên tốn giờ và dễ sai
+├── Opportunity B: Yêu cầu công việc không rõ ngay từ đầu nên làm ra kết quả lệch ý, phải làm lại
+└── Opportunity C: Phải nhớ lại và viết lại thông tin đã tồn tại ở nơi khác
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 - "Làm một chatbot trả lời khách tự động" — là giải pháp, không phải pain.
-- "Dùng AI trích xuất hóa đơn", "app quản lý lịch shop tất-cả-trong-một" — gọi tên công cụ/tính năng, bị gạch khỏi cây OST.
-- "Xây Agent tự điều khiển xe tự lái" — solution, phạm vi quá rộng (đã loại ngay ở bước scan).
+- "Dùng AI trích xuất hóa đơn", "app quản lý bán hàng tất-cả-trong-một" — gọi tên công cụ/tính năng, bị gạch khỏi cây OST.
+- "Xây Agent tự điều khiển xe tự lái" — solution, phạm vi quá rộng (đã loại ở bước scan trước đó).
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
-Shortlist 3 candidate đại diện cho 3 cluster A, B, C (cluster D bị loại vì vượt sức lab và không kiểm chứng được với người thật).
+Shortlist 3 candidate đại diện cho 3 cluster A, B, C (cluster D bị loại trước: lịch shop phạm vi hẹp một người, móp lon là vấn đề vật lý/vận chuyển khó giải bằng phần mềm trong buổi lab).
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| A — Yêu cầu mơ hồ → làm lại (#3 + #5) | 5 | 4 | 5 | 5 | 5 | 5 | 5 | **34** |
-| B — Tổng hợp thông tin rải rác (#2 + #6) | 4 | 4 | 4 | 3 | 4 | 4 | 4 | 27 |
-| C — Tra cứu / nhập trạng thái thủ công (#1 + #4) | 4 | 5 | 4 | 4 | 4 | 4 | 3 | 28 |
+| A — Gom & đối soát dữ liệu đa nguồn (#4 + #7 + #8) | 5 | 5 | 5 | 5 | 4 | 5 | 5 | **34** |
+| B — Yêu cầu mơ hồ → làm lại (#3 + #5) | 5 | 4 | 4 | 4 | 5 | 5 | 4 | 31 |
+| C — Tổng hợp thông tin rải rác (#2 + #6) | 4 | 4 | 4 | 3 | 4 | 4 | 4 | 27 |
 
-**Candidate được chọn:** Cluster A — *Người thực hiện nhận một yêu cầu công việc mô tả mơ hồ nên hiểu sai, làm ra kết quả lệch ý và phải làm lại.*
+**Candidate được chọn:** Cluster A — *Người bán hàng online / người vừa học vừa kinh doanh nhỏ phải gom và đối soát dữ liệu giao dịch phân mảnh từ nhiều nguồn (nhiều sàn TMĐT, nhiều file/chứng từ) thành một báo cáo hoặc con số đúng, tốn thời gian và dễ sai.*
 
 **Vì sao chọn:**
-- Pain xuất hiện ở **nhiều thành viên** (Nam ở job freelance, Linh ở task công việc) → nhóm hiểu domain và cùng gặp thật.
-- **Dễ kiểm chứng với người thật** ngay trong buổi lab: hỏi sinh viên nhóm khác về lần gần nhất nhận task mơ hồ trong đồ án/làm nhóm (CP4 cần hành vi đã xảy ra, không cần người đi làm).
-- **Impact đo được rõ**: tỷ lệ task phải làm lại, số vòng hỏi lại, thời gian đội thêm.
-- **So sánh được cả 4 mức AI**: No AI/Rule (checklist câu hỏi làm rõ cố định) → Workflow (AI gợi ý câu hỏi còn thiếu từ mô tả) → Agent (ít phù hợp) → thuận cho CP6.
+- Pain phủ **cả 3 thành viên**: Sơn (đối soát doanh thu tuần + báo cáo tháng nhiều sàn), Linh (nhập liệu hóa đơn vào bảng tính), Nam (tổng hợp việc/dữ liệu cuối tuần) -&gt; nhóm hiểu domain và cùng gặp thật.
+- **Dễ kiểm chứng với người thật** trong buổi lab: Sơn là người bán online thật; có thể phỏng vấn thêm sinh viên/bạn bè đang bán hàng trên sàn - đều là hành vi đã xảy ra (CP4).
+- **Impact đo được rõ**: thời gian gom/đối soát (60–120 phút), tần suất (tuần/tháng), tỷ lệ chênh lệch số liệu, số lỗi mỗi kỳ.
+- **So sánh được cả 4 mức AI**: No AI/Rule (template, công thức, import file chuẩn) -&gt; Workflow (AI trích xuất từ nhiều định dạng + đối chiếu, người duyệt) -&gt; Agent (ít phù hợp) → rất thuận cho CP6.
 
 **Vì sao loại các candidate còn lại:**
-- **Cluster D (xe tự lái của Sơn):** liên quan an toàn tính mạng, cần dữ liệu camera và hạ tầng lớn, **không kiểm chứng được với người thật** trong buổi lab và **vượt sức** → loại.
-- **Cluster C (nhập liệu hóa đơn, #4):** actor là kế toán/hành chính, nhóm là sinh viên nên **khó phỏng vấn đúng người thật**; lịch shop (#1) thì chỉ một mình Nam gặp, phạm vi hẹp → loại.
-- **Cluster B (biên bản họp, đồng bộ tài liệu):** impact khó đo khách quan ("tài liệu đúng với code" đo thế nào), và biên bản họp phụ thuộc chất lượng transcript tiếng Việt → để lại làm hướng mở rộng, không chọn lần này.
+- **Cluster D:** lịch trống shop (#1) chỉ một mình Nam gặp, phạm vi hẹp; đơn sữa móp lon (#9) là vấn đề đóng gói/vận chuyển vật lý, phần mềm khó giải trong một buổi lab → loại.
+- **Cluster C (đồng bộ tài liệu đồ án #2, biên bản họp #6):** impact khó đo khách quan ("tài liệu đúng với code" đo thế nào), biên bản họp phụ thuộc chất lượng transcript tiếng Việt khi nhiều người nói chồng -&gt; để làm hướng mở rộng, không chọn lần này.
+- **Cluster B (yêu cầu mơ hồ -&gt; làm lại):** candidate mạnh (31đ), nhưng bằng chứng hiện có mỏng hơn A và impact khó quy ra con số bằng A; nhóm giữ B làm phương án dự phòng nếu kiểm chứng A ở CP4 không ra tín hiệu đủ mạnh.
 
-**Xử lý bất đồng (nếu có):** Sơn muốn giữ hướng xe tự lái vì đúng chuyên môn; nhóm thống nhất ghi nhận là hướng cá nhân nhưng không chọn cho lab này vì không kiểm chứng được với người thật và vượt sức một buổi. Sơn đồng ý tham gia cluster A ở vai trò phản biện và kiểm chứng.
+**Xử lý bất đồng (nếu có):** Ban đầu các thành viên có domain rất khác nhau (shop thuê đồ, công việc văn phòng, bán hàng TMĐT). Nhóm thống nhất không chọn theo domain của một người, mà chọn **pattern chung mạnh nhất và kiểm chứng được**; vì vậy hội tụ về "gom & đối soát dữ liệu đa nguồn" - pattern cả ba cùng gặp. Hướng xe tự lái (phiên bản scan cũ của Sơn) đã được thống nhất loại từ trước vì vượt sức và không kiểm chứng được với người thật.
 
 ---
 

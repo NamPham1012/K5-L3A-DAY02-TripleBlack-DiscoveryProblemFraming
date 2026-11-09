@@ -5,7 +5,7 @@
 ## Thông tin nhóm
 
 - Tên nhóm: Triple Black
-- Candidate problem nhóm chọn (1 câu): Người thực hiện nhận một yêu cầu công việc mô tả mơ hồ nên hiểu sai, làm ra kết quả lệch ý và phải làm lại, khiến công việc đội thời gian.
+- Candidate problem nhóm chọn (1 câu): Người bán hàng online / người vừa học vừa kinh doanh nhỏ phải gom và đối soát dữ liệu giao dịch phân mảnh từ nhiều nguồn (nhiều sàn TMĐT, nhiều file/chứng từ) thành một báo cáo hoặc con số đúng, tốn thời gian và dễ sai.
 - Quyết định cuối (Go / Not Yet / No-Go): *(điền sau khi xong CP6)*
 
 ## Thành viên
