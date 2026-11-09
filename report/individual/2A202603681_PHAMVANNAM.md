@@ -138,15 +138,15 @@ HIỆN TẠI — scope không chốt rõ → job đội thời gian
 
 ### AI đã phản biện card thế nào
 
-
 Tôi hỏi AI theo 6 câu: actor có cụ thể không, quy trình có thật không, bottleneck có là một bước cụ thể không, metric có đo được không, sửa quy trình/Rule đã đủ chưa, có nhảy sang AI quá sớm không. Dưới đây là các điểm yếu AI chỉ ra cho card pitch (#1):
 
-| Câu hỏi | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
-| ------- | ------------------ | ------- | --------- |
-| Metric có đo được không? | "Trả lời nhanh hơn" chung chung, không có baseline/target | Có | Đổi thành đo được: ~4 phút/lần → dưới 1 phút; số lần nhận trùng lịch → 0 |
-| Bottleneck có là một bước cụ thể? | Việc mất đơn có thể do khâu khách trả đồ không cập nhật lịch, không chỉ do dò tay | Một phần | Giữ bottleneck chính ở bước dò tay, nhưng ghi thêm rủi ro "lịch không cập nhật khi trả đồ" vào Impact để kiểm chứng ở CP4 |
-| Quy trình có thật không? | Chưa rõ đang ghi đơn bằng sổ tay hay file — ảnh hưởng tới thời gian dò | Có | Ghi rõ hiện ghi bằng sổ/ghi chú rời, dễ sót; đây chính là lý do bước 3 chậm |
-| Sửa quy trình/Rule đã đủ chưa? Có nhảy sang AI sớm? | Một bảng lịch tra tay đã giải gần hết; giả thuyết "AI tự trả lời khách" là nhảy sớm | Có | Hạ "Cảm nhận nhanh" từ Workflow xuống **Rule**, ưu tiên thử phương án không dùng AI (bảng lịch) trước |
+
+| Câu hỏi                                             | Điểm yếu AI chỉ ra                                                                  | Đồng ý?  | Đã sửa gì                                                                                                                 |
+| --------------------------------------------------- | ----------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Metric có đo được không?                            | "Trả lời nhanh hơn" chung chung, không có baseline/target                           | Có       | Đổi thành đo được: \~4 phút/lần → dưới 1 phút; số lần nhận trùng lịch → 0                                                 |
+| Bottleneck có là một bước cụ thể?                   | Việc mất đơn có thể do khâu khách trả đồ không cập nhật lịch, không chỉ do dò tay   | Một phần | Giữ bottleneck chính ở bước dò tay, nhưng ghi thêm rủi ro "lịch không cập nhật khi trả đồ" vào Impact để kiểm chứng ở CP4 |
+| Quy trình có thật không?                            | Chưa rõ đang ghi đơn bằng sổ tay hay file — ảnh hưởng tới thời gian dò              | Có       | Ghi rõ hiện ghi bằng sổ/ghi chú rời, dễ sót; đây chính là lý do bước 3 chậm                                               |
+| Sửa quy trình/Rule đã đủ chưa? Có nhảy sang AI sớm? | Một bảng lịch tra tay đã giải gần hết; giả thuyết "AI tự trả lời khách" là nhảy sớm | Có       | Hạ "Cảm nhận nhanh" từ Workflow xuống **Rule**, ưu tiên thử phương án không dùng AI (bảng lịch) trước                     |
 
 
 ---
@@ -154,18 +154,18 @@ Tôi hỏi AI theo 6 câu: actor có cụ thể không, quy trình có thật kh
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
 
-| Hoạt động                  | Tôi đã làm gì?         | Kết quả / ảnh hưởng tới bài nhóm |
-| -------------------------- | ---------------------- | -------------------------------- |
-| Pitch Problem Card         | Pitch 3 card của mình: lịch trống shop thuê đồ, đồng bộ tài liệu đồ án↔code, khóa scope job freelance; chọn card lịch shop để pitch chính | Nhóm có thêm góc "tra cứu/lịch" khi gom cluster |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: với Sơn — "Chênh lệch doanh thu là do phí/hoàn tiền hay do gom sai số liệu?"; với Linh — "Nhóm là SV, có kiểm chứng được với kế toán thật không?" | Giúp nhóm thấy #4 (nhập liệu) khó phỏng vấn đúng người, và #7–#8 của Sơn mới là pain đo được rõ |
-| Nhận phản biện             | Câu hỏi tôi nhận được: "Lịch trống shop chỉ mình bạn gặp hay nhiều người gặp?" (Linh) | Tôi đã sửa gì: đồng ý lịch shop phạm vi hẹp một người; bỏ ý đưa nó thành candidate chính, chuyển sang ủng hộ cluster dữ liệu đa nguồn mà cả 3 cùng gặp |
-| Gom cluster / cây OST      | Là người chính CP3: gom 9 candidate thành 4 cluster (A gom/đối soát dữ liệu, B yêu cầu mơ hồ, C tổng hợp thông tin, D tra cứu/giao hàng); dựng cây OST 1 outcome + 3 opportunity, gạch các solution đội lốt | Ra được cây OST và bảng cluster ở Mục 2 group_report |
-| Chọn candidate problem     | Dẫn dắt chấm điểm 7 tiêu chí cho shortlist; chốt cluster A (gom & đối soát dữ liệu đa nguồn) vì phủ cả 3 người và kiểm chứng được | Nhóm chốt candidate problem chính thức cho CP4→CP6 |
-| Kiểm chứng / research      |                        |                                  |
-| Quy trình nhóm             |                        |                                  |
-| Problem Statement          |                        |                                  |
-| Mức can thiệp AI           |                        |                                  |
-| Quyết định                 |                        |                                  |
+| Hoạt động                  | Tôi đã làm gì?                                                                                                                                                                                              | Kết quả / ảnh hưởng tới bài nhóm                                                                                                                       |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Pitch Problem Card         | Pitch 3 card của mình: lịch trống shop thuê đồ, đồng bộ tài liệu đồ án↔code, khóa scope job freelance; chọn card lịch shop để pitch chính                                                                   | Nhóm có thêm góc "tra cứu/lịch" khi gom cluster                                                                                                        |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: với Sơn — "Chênh lệch doanh thu là do phí/hoàn tiền hay do gom sai số liệu?"; với Linh — "Nhóm là SV, có kiểm chứng được với kế toán thật không?"                                       | Giúp nhóm thấy #4 (nhập liệu) khó phỏng vấn đúng người, và #7–#8 của Sơn mới là pain đo được rõ                                                        |
+| Nhận phản biện             | Câu hỏi tôi nhận được: "Lịch trống shop chỉ mình bạn gặp hay nhiều người gặp?" (Linh)                                                                                                                       | Tôi đã sửa gì: đồng ý lịch shop phạm vi hẹp một người; bỏ ý đưa nó thành candidate chính, chuyển sang ủng hộ cluster dữ liệu đa nguồn mà cả 3 cùng gặp |
+| Gom cluster / cây OST      | Là người chính CP3: gom 9 candidate thành 4 cluster (A gom/đối soát dữ liệu, B yêu cầu mơ hồ, C tổng hợp thông tin, D tra cứu/giao hàng); dựng cây OST 1 outcome + 3 opportunity, gạch các solution đội lốt | Ra được cây OST và bảng cluster ở Mục 2 group\_report                                                                                                  |
+| Chọn candidate problem     | Dẫn dắt chấm điểm 7 tiêu chí cho shortlist; chốt cluster A (gom &amp; đối soát dữ liệu đa nguồn) vì phủ cả 3 người và kiểm chứng được                                                                       | Nhóm chốt candidate problem chính thức cho CP4→CP6                                                                                                     |
+| Kiểm chứng / research      | Hỗ trợ Linh/Sơn: soạn cùng bộ câu hỏi phỏng vấn theo Mom Test, nhắc tránh câu "Bạn có muốn…"; cùng rà 3 link research cho mở được                                                                           | Phỏng vấn ra số thật, nhóm chỉnh lại baseline thời gian và thu hẹp actor về "người bán ≥2 sàn"                                                         |
+| Quy trình nhóm             | Cùng Sơn vẽ quy trình hiện tại/tương lai; đề xuất thêm bước con người duyệt (HITL) và phương án quay về khi AI sai                                                                                          | Quy trình tương lai có boundary + phương án quay về ở Mục 4 group\_report                                                                              |
+| Problem Statement          | Người chính viết Problem Statement v0 và v1; nhờ AI chỉ lỗ hổng rồi tự chốt                                                                                                                                 | Ra Problem Statement v0 (Mục 5) và v1 (Mục 7); metric có baseline→target→cách đo                                                                       |
+| Mức can thiệp AI           | Dẫn so sánh 4 mức, lập luận chọn Workflow và vì sao không chọn Rule/Agent; điền AI Canvas + 2 câu PAIR                                                                                                      | Mục 6 group\_report: chốt mức Workflow có lý do                                                                                                        |
+| Quyết định                 | Cùng Linh chấm 4 rủi ro và đề xuất ngưỡng dừng đo được                                                                                                                                                      | Quyết định "Go, phạm vi nhỏ" + ngưỡng dừng ở Mục 8                                                                                                     |
 
 
 ---
@@ -175,37 +175,75 @@ Tôi hỏi AI theo 6 câu: actor có cụ thể không, quy trình có thật kh
 
 | Checkpoint                     | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 | ------------------------------ | ---------------------- | ----------------- | -------------------------- | ----------------------------------- |
-| CP1 Scan                       |                        |                   |                            |                                     |
-| CP2 Problem Card               |                        |                   |                            |                                     |
-| CP4 Research                   |                        |                   |                            |                                     |
-| CP5 Quy trình                  |                        |                   |                            |                                     |
-| CP5–6 Problem Statement        |                        |                   |                            |                                     |
-| CP6 Mức can thiệp / quyết định |                        |                   |                            |                                     |
+| CP1 Scan                       | Sau khi tự scan trước, hỏi AI gợi ý thêm góc nhìn cho các lăng kính | Gợi được vài hướng tôi chưa nghĩ tới (theo vết khi fix bug, ước lượng thời gian job) | Gợi ý chung chung, thiếu dấu hiệu thật; có ý là giải pháp trá hình ("làm app quản lý") | Tự viết lại theo trải nghiệm thật, thêm số đo; loại các ý là solution |
+| CP2 Problem Card               | Cho AI đóng vai "PM hoài nghi" phản biện card theo 6 câu (actor, quy trình, bottleneck, metric, Rule đủ chưa, nhảy AI sớm) | Chỉ ra metric "nhanh hơn" không đo được, và việc nhảy sang AI quá sớm | Có chỗ phán đoán bottleneck hộ tôi chưa đúng bối cảnh | Sửa metric thành baseline→target đo được; hạ cảm nhận từ Workflow xuống Rule |
+| CP4 Research                   | Nhờ AI gợi ý từ khoá và một số công cụ gom/đối soát đa sàn để tự đi tìm | Rút ngắn thời gian tìm, biết tên vài công cụ (Sapo, Pancake) | Có link/thông tin AI đưa không chính xác hoặc đã cũ | Tự mở từng link kiểm lại, bỏ nguồn không mở được; không dùng AI để phỏng vấn người thật |
+| CP5 Quy trình                  | Nhờ AI chuyển mô tả các bước thành sơ đồ và phản biện quy trình tương lai | Giúp sắp xếp sơ đồ gọn, nhắc chỗ cần bước con người kiểm tra | Bỏ qua "phương án quay về" khi AI sai nếu tôi không hỏi | Tự thêm boundary + phương án quay về; kiểm lại số phút từng bước theo thực tế |
+| CP5–6 Problem Statement        | Nhờ AI chỉ lỗ hổng của Problem Statement v0 (chỉ hỏi lỗ hổng, không để viết lại thay) | Chỉ ra baseline metric chưa rõ cách đo, actor còn rộng | Có đề xuất mở rộng phạm vi làm bài phình ra | Giữ phạm vi hẹp (đối soát tuần); bổ sung cách đo đối chiếu chéo; thu hẹp actor về người bán ≥2 sàn |
+| CP6 Mức can thiệp / quyết định | Dùng AI phản biện lựa chọn mức và cách chấm 4 rủi ro | Nhắc tự hỏi "Workflow đã đủ chưa" trước khi chọn Agent | Thiên về gợi mức cao cho "ấn tượng" | Giữ mức Workflow, lập luận vì sao không cần Agent; tự đặt ngưỡng dừng đo được |
 
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
+Khi nghe Linh và Sơn pitch, tôi nhận ra ba đứa sống trong ba thế giới rất khác nhau: tôi thì loay hoay với shop cho thuê đồ và đồ án, Linh thì quen các việc văn phòng như nhập liệu và họp hành, còn Sơn bán sữa online trên nhiều sàn. Điều làm tôi bất ngờ là dù khác domain, có những pattern lặp lại ở cả ba: đều có khâu "gom và xử lý dữ liệu rải rác" và khâu "làm lại vì hiểu sai". Tôi học được rằng một vấn đề mạnh không phải là vấn đề của riêng mình, mà là cái nhiều người cùng gặp và đo được. Ban đầu tôi khá tự tin card lịch shop của mình sẽ được chọn, nhưng nghe xong mới thấy nó hẹp vì chỉ mình tôi gặp. Nhìn vấn đề của Sơn, tôi thấy nó vừa đo được bằng thời gian, vừa có người thật để phỏng vấn ngay. Bài học lớn nhất với tôi là phải tạm bỏ "cái tôi" với vấn đề của mình, nhìn vào tiêu chí khách quan để chọn cái tốt nhất cho cả nhóm.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
+Có, và khá sớm. Ngay khi chốt hướng của Sơn, cả nhóm lập tức nhảy sang bàn "làm một công cụ tự gom số liệu các sàn" và thậm chí nói tới việc để AI tự đối soát. Lúc gom cây OST, tôi phát hiện mình đang viết "app quản lý bán hàng" vào nhánh opportunity — mà đó là giải pháp, không phải pain. Chúng tôi dừng lại, gạch các ý gọi tên công cụ, và viết lại nhánh theo đúng nỗi đau: "dữ liệu rải rác nhiều định dạng nên phải gom tay và dễ sai". Sau đó khi vẽ quy trình, nhóm cũng suýt gán mức Agent cho đẹp, nhưng khi tự hỏi "Workflow đã đủ chưa" thì thấy quy trình vốn đã cố định, không cần AI tự quyết bước. Cách nhóm xử lý là luôn quay lại hỏi "bottleneck thật nằm ở bước nào" trước khi nói tới AI.
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Có. Tôi vào buổi hội tụ với ý định pitch mạnh cho card "lịch trống shop cho thuê đồ" của mình và muốn nó thành vấn đề chính của nhóm. Linh phản biện một câu làm tôi khựng lại: "Pain này chỉ mình bạn gặp hay nhiều người gặp?". Tôi thừa nhận là gần như chỉ mình tôi, và nếu phỏng vấn thì cũng chỉ phỏng vấn được chính mình. Lúc đầu tôi hơi tiếc vì đã chuẩn bị kỹ card đó, nhưng khi đặt lên bàn chấm điểm 7 tiêu chí thì rõ ràng vấn đề của Sơn thắng ở "pain có bằng chứng" và "kiểm chứng được với người thật". Tôi đổi ý, chủ động bỏ ý đưa lịch shop làm candidate chính và chuyển sang ủng hộ cluster dữ liệu đa nguồn. Nhờ vậy nhóm hội tụ nhanh hơn.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
+Có hai điều. Thứ nhất, khi research tôi tưởng đây là bài chưa ai giải, nhưng hoá ra đã có công cụ như Sapo hay Pancake POS gom đơn đa sàn khá tốt. Điều này suýt làm tôi nghĩ "thôi khỏi làm". Nhưng khi đọc kỹ thì thấy chúng mạnh ở khâu "gom", còn khâu "đối soát chênh lệch phí/hoàn tiền" — đúng bottleneck của Sơn — thì vẫn bỏ trống hoặc tính phí cao. Thứ hai, khi nghe Sơn kể lần số liệu bị lệch thật, tôi bất ngờ vì hậu quả không chỉ là mất thời gian mà còn ghi sai doanh thu, dẫn tới đánh giá nhầm sản phẩm nào đang lãi. Điều đó làm tôi thấy "bỏ sót" nguy hiểm hơn "báo nhầm", và nó đổi cả cách nhóm thiết kế boundary.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
+Khó nhất với tôi là viết Success Metric cho đo được. Lúc đầu tôi viết "giúp đối soát nhanh và chính xác hơn", nghe thì xuôi tai nhưng không đo được cái gì cả. Phải ngồi lại tách ra baseline (hiện mất khoảng 60 phút/tuần), target (xuống dưới 30 phút) và cách đo (tự bấm giờ ba tuần). Phần "số dòng chênh lệch bị bỏ sót" còn khó hơn vì baseline của nó không có sẵn — nhóm phải nghĩ ra cách đo bằng việc đối chiếu chéo bảng người kiểm với bảng đã chốt. Qua đó tôi hiểu một metric tốt buộc mình phải nói rõ đang đo cái gì, bằng con số nào, chứ không được trốn sau những từ như "nhanh hơn", "tiện hơn".
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, tôi sẽ đi phỏng vấn người thật sớm hơn, ngay sau khi có shortlist, thay vì gần như chốt vấn đề xong mới kiểm chứng — làm vậy số liệu baseline sẽ chắc hơn. Tôi cũng sẽ ép nhóm phỏng vấn thêm ít nhất một người bán ngoài Sơn để tránh phụ thuộc vào một nguồn duy nhất. Về phản biện, tôi thấy mình còn dễ dãi ở chỗ chấp nhận ngay con số thời gian của một mình Sơn làm baseline; lần sau tôi sẽ phản biện mạnh hơn vào tính đại diện của số liệu, hỏi "con số này đúng với bao nhiêu người", trước khi để nó vào Problem Statement.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Problem của nhóm tôi là người bán online trên nhiều sàn phải gom và đối soát số liệu giao dịch rải rác để ra doanh thu đúng, tốn thời gian và dễ sai. Quy trình hiện tại gồm tải báo cáo từng sàn, chuẩn hoá, gộp vào một bảng, rồi đối chiếu phí và hoàn tiền để tìm chênh lệch — bottleneck nằm ở bước đối chiếu, khoảng 20 phút mỗi lần. Metric là giảm thời gian đối soát từ 60 xuống dưới 30 phút một tuần và giảm ít nhất một nửa số dòng chênh lệch bị bỏ sót, đo bằng bấm giờ và đối chiếu chéo. Boundary là AI chỉ gợi ý dòng nghi ngờ chứ không tự sửa số hay tự chốt doanh thu, và người bán bắt buộc duyệt lại trước khi chốt, có phương án quay về đối chiếu tay. Về mức can thiệp, nhóm chọn Workflow vì quy trình đã cố định nhưng dữ liệu đa định dạng cần AI làm một phần; không cần Agent vì không phải để AI tự quyết bước. Quyết định cuối là Go phạm vi nhỏ, chạy thử ba tuần với một người bán, và ngưỡng dừng là nếu thời gian không giảm xuống dưới 45 phút hoặc AI bỏ sót trên 10% dòng chênh lệch thì quay về cách làm bằng Excel.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
-- 
+**Framework (theo docs/[03-international-frameworks.md](http://03-international-frameworks.md)):**
+
+- Job Story (Jobs-to-be-Done) — Intercom / Alan Klement: [https://www.intercom.com/blog/accidentally-invented-job-stories/](https://www.intercom.com/blog/accidentally-invented-job-stories/)
+
+- Opportunity Solution Tree — Teresa Torres: [https://www.producttalk.org/opportunity-solution-trees/](https://www.producttalk.org/opportunity-solution-trees/)
+
+- The Mom Test — Rob Fitzpatrick: [https://www.momtestbook.com/](https://www.momtestbook.com/)
+
+- Lean UX Problem Statement — Jeff Gothelf: [https://jeffgothelf.com/blog/business-problem-statement-opportunity-statement/](https://jeffgothelf.com/blog/business-problem-statement-opportunity-statement/)
+
+- Google PAIR — User Needs + Defining Success: [https://pair.withgoogle.com/chapter/user-needs/](https://pair.withgoogle.com/chapter/user-needs/)
+
+- Building Effective Agents — Anthropic (No AI/Rule/Workflow/Agent): [https://www.anthropic.com/research/building-effective-agents](https://www.anthropic.com/research/building-effective-agents)
+
+- AI Canvas — Prediction Machines (HBR): [https://hbr.org/2018/04/a-simple-tool-to-start-making-decisions-with-the-help-of-ai](https://hbr.org/2018/04/a-simple-tool-to-start-making-decisions-with-the-help-of-ai)
+
+- Four Big Risks — Marty Cagan (SVPG): [https://www.svpg.com/four-big-risks/](https://www.svpg.com/four-big-risks/)
+
+**Công cụ tham khảo khi research giải pháp đã có (CP4):**
+
+- Sapo Omnichannel: [https://www.sapo.vn](https://www.sapo.vn)
+
+- Pancake POS: [https://pos.pancake.vn](https://pos.pancake.vn)
+
+- Shopee Seller Center: [https://seller.shopee.vn](https://seller.shopee.vn)
+
+ 
 
