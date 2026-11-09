@@ -42,16 +42,23 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 **Phần việc phụ trách:**
 
-- 
+- Leader, điều phối thời gian nhóm.
+- Người chính CP3 (hội tụ nhóm) và CP5 Problem Statement v0; chính CP6 mức can thiệp + Problem Statement v1.
+- Viết Problem Statement (v0 → v1), hỗ trợ vẽ quy trình và chấm quyết định.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-- 
+- CP3: gom 9 candidate thành 4 cluster, dựng cây OST (1 outcome + 3 opportunity), dẫn chấm điểm 7 tiêu chí và chốt candidate "gom & đối soát dữ liệu đa nguồn".
+- CP5–CP6: viết Problem Statement v0 và v1 (metric có baseline→target→cách đo, boundary + HITL); lập luận chọn mức Workflow và vì sao không chọn Rule/Agent; điền AI Canvas và 2 câu PAIR.
+- CP6: cùng nhóm chấm 4 rủi ro và đề xuất ngưỡng dừng đo được.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- 
+- `group_report.md` Mục 2 (toàn bộ CP3), Mục 5 (Problem Statement v0), Mục 6–8 (mức can thiệp, v1, quyết định).
+- Báo cáo cá nhân `report/individual/2A202603681_PHAMVANNAM.md` (CP1–CP2, Mục 4–6).
+- Commit của tài khoản NamPham: `0ab20f1` (cp01 & cp2), `c980eac` / `89fcf13` (cp3), `a1b5372` (cp5 Problem Statement v0 & CP6 mức can thiệp + v1), `f3103dc` (báo cáo cá nhân CP3→7 & Mục 5 Dùng AI).
 
 **Điều mình học được từ phần nhóm:**
 
-- 
+- Vấn đề mạnh nhất của nhóm không phải vấn đề của riêng mình: tôi đã bỏ card lịch shop của mình để chọn vấn đề của Sơn vì nó đo được và kiểm chứng được với người thật.
+- Phân biệt opportunity (pain) với solution khi dựng cây OST, và viết Success Metric buộc phải có baseline, target, cách đo thay vì nói "nhanh hơn".
